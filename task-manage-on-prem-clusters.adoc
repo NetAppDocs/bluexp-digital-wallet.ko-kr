@@ -1,0 +1,90 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: digital wallet, cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract 
+summary: BlueXP 디지털 지갑을 사용하면 각 온프레미스 ONTAP 클러스터에 대한 계약 세부 정보를 볼 수 있습니다. BlueXP에서 아직 클러스터를 발견하지 못한 경우 디지털 지갑에서도 이를 확인할 수 있습니다. 
+---
+= 사내 ONTAP 클러스터에 대한 라이센스 관리
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 디지털 지갑을 사용하면 각 온프레미스 ONTAP 클러스터에 대한 계약 세부 정보를 볼 수 있습니다. BlueXP에서 아직 클러스터를 발견하지 못한 경우 디지털 지갑에서 클러스터를 검색할 수도 있습니다.
+
+.시작하기 전에
+BlueXP 디지털 지갑에는 작업 환경으로 발견했거나 BlueXP에 추가한 NetApp Support 사이트 계정과 연결된 온프레미스 ONTAP 클러스터에 대한 세부 정보가 표시됩니다.
+
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["사내 ONTAP 클러스터를 검색하는 방법에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["BlueXP 계정과 연결된 NSS 자격 증명을 관리하는 방법에 대해 알아봅니다"^]
+
+
+
+
+== 클러스터 정보 및 계약 세부 정보를 봅니다
+
+만료되기 전에 클러스터를 갱신할 수 있도록 온-프레미스 ONTAP 클러스터에 대한 하드웨어 및 소프트웨어 계약의 상태를 확인합니다.
+
+.단계
+. BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
+. On-Premises ONTAP * 를 선택합니다.
++
+소프트웨어 계약 및 하드웨어 계약 만료 날짜가 각 클러스터의 줄에 표시됩니다.
+
++
+NetApp Support 사이트(NSS) 계정 자격 증명을 먼저 입력하라는 메시지가 나타나면 * NSS 계정 추가 * 를 선택합니다. 계정을 추가하면 해당 NSS 계정과 연결된 클러스터가 나타납니다.
+
+. 계약이 만료일에 가깝거나 만료된 경우 BlueXP 콘솔의 오른쪽 하단에 있는 채팅 아이콘을 클릭하여 계약 연장을 요청할 수 있습니다.
+. 자세한 내용을 보려면 를 클릭합니다 image:button_down_caret.png["아래쪽 캐럿 아이콘"] 클러스터 정보를 확장합니다.
++
+image:screenshot_digital_wallet_license_info.png["클러스터 라이센스 정보를 볼 수 있도록 클러스터 세부 정보를 확장하는 스크린샷"]
+
+
+
+
+
+== 클러스터 검색
+
+사내 ONTAP 클러스터를 작업 환경으로 발견하지 못한 경우 BlueXP 디지털 지갑에서 찾을 수 있습니다. 검색된 클러스터는 BlueXP에서 작동 환경으로 사용할 수 있으므로 관리할 수 있습니다.
+
+.시작하기 전에
+검색 및 관리 옵션(Connector를 사용한 검색 또는 Connector를 사용하지 않는 직접 검색)과 검색 요구 사항을 이해해야 합니다.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["검색 옵션 및 요구 사항에 대해 알아보십시오"^].
+
+.단계
+. BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
+. On-Premises ONTAP * 를 선택합니다.
++
+image:screenshot_digital_wallet_onprem_main.png["온-프레미스 ONTAP 클러스터에 대한 디지털 지갑 페이지의 스크린샷."]
+
++
+ONTAP 클러스터는 BlueXP에서 검색되었는지 여부와 함께 표시됩니다.
+
++
+NetApp Support 사이트(NSS) 계정 자격 증명을 먼저 입력하라는 메시지가 나타나면 * NSS 계정 추가 * 를 선택합니다. 계정을 추가하면 해당 NSS 계정과 연결된 클러스터가 나타납니다.
+
+. BlueXP를 통해 관리하려는 클러스터에 대해 * 검색 * 을 클릭합니다.
+. Discover ONTAP Cluster_페이지에서 admin 사용자 계정의 암호를 입력하고 * Discover * 를 클릭합니다.
++
+image:screenshot_discover_ontap_wallet.png["ONTAP 클러스터 세부 정보 페이지의 예, 클러스터 관리 IP 주소, 사용자 이름 및 암호를 보여주는 스크린샷"]
+
++
+클러스터 관리 IP 주소는 NetApp Support 사이트 계정의 정보에 따라 채워집니다.
+
+
+
+.결과
+BlueXP는 클러스터를 검색하여 Canvas에서 작업 환경으로 추가합니다. 클러스터 상태가 _온-프레미스 ONTAP_페이지에서 * 검색됨 * 으로 바뀝니다. 작업 환경 이름은 클러스터의 이름입니다.
+
+image:screenshot_onprem_cluster.png["Canvas의 온프레미스 ONTAP 클러스터 스크린샷"]
+
+이제 클러스터 관리를 시작할 수 있습니다.
+
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html["Connector로 검색된 클러스터를 관리하는 방법에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["검색된 클러스터를 직접 관리하는 방법에 대해 알아보십시오"^]
+

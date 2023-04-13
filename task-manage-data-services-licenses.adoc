@@ -1,0 +1,100 @@
+---
+sidebar: sidebar 
+permalink: task-manage-data-services-licenses.html 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license 
+summary: 'BlueXP 디지털 지갑을 사용하면 Cloud Backup, Cloud Data Sense 및 Cloud Tiering과 함께 사용하기 위해 NetApp(BYOL)에서 직접 구입한 라이센스를 관리할 수 있습니다. 사용된 라이센스 용량, 남은 사용 가능 용량 등을 볼 수 있으며 용량 한도 또는 만료 날짜에 도달한 경우 알림을 볼 수 있습니다.' 
+---
+= BlueXP 데이터 서비스의 라이센스를 관리합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: https://docs.netapp.com/us-en/cloud-manager-backup-restore/media/
+
+
+[role="lead"]
+BlueXP 디지털 지갑을 사용하면 Cloud Backup, Cloud Data Sense 및 Cloud Tiering과 함께 사용하기 위해 NetApp(BYOL)에서 직접 구입한 라이센스를 관리할 수 있습니다. 사용된 라이센스 용량, 남은 사용 가능 용량 등을 볼 수 있으며 용량 한도 또는 만료 날짜에 도달한 경우 알림을 볼 수 있습니다.
+
+이 페이지의 지침은 각 서비스에 적용되는 정보를 제공합니다. 이러한 서비스의 라이센스에 대한 자세한 내용은 다음 페이지를 참조하십시오.
+
+* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["Cloud Backup에 대한 라이센스 설정"^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["클라우드 데이터 센스에 대한 라이센스 설정"^]
+* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["Cloud Tiering의 라이센스 설정"^]
+
+
+
+
+== 라이센스 파일을 얻습니다
+
+라이센스를 구입한 후에는 일련 번호 및 NSS 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 BlueXP에서 라이센스를 활성화할 수 있습니다. 아래 단계에서는 NLF 라이센스 파일을 가져오는 방법을 보여 줍니다(해당 방법을 사용하려는 경우).
+
+.단계
+. 에 로그인합니다 https://mysupport.netapp.com["NetApp Support 사이트"^] 시스템 > 소프트웨어 라이센스 * 를 클릭합니다.
+. 사용권의 일련 번호를 입력합니다.
++
+image:screenshot_cloud_backup_license_step1.gif["일련 번호로 검색한 후 라이센스 테이블을 보여 주는 스크린샷"]
+
+. 라이센스 키 * 열에서 * NetApp 라이센스 파일 가져오기 * 를 클릭합니다.
+. BlueXP 계정 ID(지원 사이트에서 테넌트 ID라고 함)를 입력하고 * 제출 * 을 클릭하여 라이센스 파일을 다운로드합니다.
++
+image:screenshot_cloud_backup_license_step2.gif["테넌트 ID를 입력한 다음 제출을 클릭하여 라이센스 파일을 다운로드할 수 있는 라이센스 가져오기 대화 상자가 표시된 스크린샷"]
+
++
+BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 클릭하여 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다.
+
+
+
+
+
+== 라이센스를 추가합니다
+
+BlueXP 데이터 서비스에 대한 라이센스를 구입한 후에는 BlueXP에 라이센스를 추가해야 합니다.
+
+.단계
+. BlueXP 메뉴에서 * Governance > Digital Wallet * 을 클릭한 다음 * Data Services Licenses * 탭을 선택합니다.
+. 라이선스 추가 * 를 클릭합니다.
+. Add License_대화 상자에서 라이센스 정보를 입력하고 * Add License * 를 클릭합니다.
++
+** 일련 번호가 있고 NSS 계정을 알고 있는 경우 * 일련 번호 입력 * 옵션을 선택하고 해당 정보를 입력합니다.
++
+드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["NSS 계정을 BlueXP에 추가합니다"^]
+
+** 라이센스 파일이 있는 경우(BlueXP를 개인 모드에서 사용할 때 필요) * 라이센스 파일 업로드 * 옵션을 선택하고 메시지에 따라 파일을 첨부합니다.
++
+image:screenshot_services_license_add2.png["Cloud Backup BYOL 라이센스를 추가하는 페이지를 보여 주는 스크린샷"]
+
+
+
+
+
+.결과
+BlueXP에서 라이센스를 추가합니다.
+
+
+
+== 라이센스를 업데이트합니다
+
+사용 허가된 기간이 만료일에 가까워지고 있거나 사용 허가된 용량이 한도에 도달한 경우 Digital Wallet에서 알림을 받게 됩니다. BlueXP 데이터 서비스 사용에 방해가 되지 않도록 라이센스가 만료되기 전에 라이센스를 업데이트할 수 있습니다.
+
+image:screenshot_services_license_expire.png["Digital Wallet 페이지에 만료 중인 라이센스를 보여 주는 스크린샷."]
+
+.단계
+. BlueXP의 오른쪽 하단에 있는 채팅 아이콘을 클릭하거나 지원 부서에 문의하여 특정 일련 번호에 대한 라이선스의 연장 또는 추가 용량을 요청합니다.
++
+라이센스 비용을 지불하고 NetApp Support 사이트에 등록한 후 BlueXP는 디지털 지갑의 라이센스를 자동으로 업데이트하고 데이터 서비스 라이센스 페이지에 변경 내용이 5-10분 내에 반영됩니다.
+
+. BlueXP에서 라이센스를 자동으로 업데이트할 수 없는 경우(예: 비공개 모드에서 BlueXP 사용 시) 라이센스 파일을 수동으로 업로드해야 합니다.
++
+.. 가능합니다 <<라이센스 파일을 얻습니다,NetApp Support 사이트에서 라이센스 파일을 받으십시오>>.
+.. Data Services Licenses_탭에서 를 클릭합니다 image:screenshot_horizontal_more_button.gif["추가 아이콘"] 업데이트하는 서비스 일련 번호에 대해 * Update License * 를 클릭합니다.
++
+image:screenshot_services_license_update1.png["특정 서비스에 대한 라이센스 업데이트 단추를 선택하는 스크린샷"]
+
+.. Update License_page에서 라이센스 파일을 업로드하고 * Update License * 를 클릭합니다.
+
+
+
+
+.결과
+BlueXP에서 라이센스를 업데이트합니다.
