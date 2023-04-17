@@ -85,7 +85,6 @@
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="list-text">온프레미스 ONTAP 클러스터</block>
   <block id="a4f0f752cbc0651ce6551bad053b1ae6" category="summary">BlueXP 디지털 지갑은 라이선스 및 구독에 대한 중앙 집중식 관리 및 모니터링을 제공합니다.</block>
-  <block id="7b432de78427e2c7ffdddf3f0a09ce52" category="doc">BlueXP 디지털 지갑</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
   <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">NetApp 기술 지원 팀의 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
@@ -549,4 +548,5 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
+  <block id="49f326995814ee311b340478f99f992f" category="doc">BlueXP 디지털 전자지갑 설명서</block>
 </blocks>
