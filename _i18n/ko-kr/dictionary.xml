@@ -74,14 +74,9 @@
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
   <block id="012ae05db65bea80da7b7050b5d96f9e" category="list-text">Cloud Volumes ONTAP에 대한 용량 기반 및 노드 기반 라이센스 관리</block>
   <block id="62d9aca3bac1caa2d9cff120588c3e35" category="list-text">BlueXP 데이터 서비스에 대한 라이센스를 추가하고 관리합니다</block>
-  <block id="94c8d5dbc233a7f83819d5552acfe787" category="list-text">BlueXP 계정 및 Astra와 관련된 PAYGO 구독 및 연간 계약을 관리합니다</block>
   <block id="68893f701c3397a3a6f6ae5a965a7ef6" category="list-text">Cloud Volumes ONTAP에 사용할 Keystone 유연한 구독을 관리하고 확정된 용량을 변경할 것을 요청합니다</block>
   <block id="385b7e85ac73053263ffe4f49784da13" category="list-text">온프레미스 ONTAP 클러스터에 대한 하드웨어 및 소프트웨어 계약 상태 정보를 봅니다</block>
   <block id="ea22f9957523103248d84695e98b17ba" category="section-title">지원되는 서비스</block>
-  <block id="0cf6e0b36272b906da65f6af3ab672b0" category="paragraph">BlueXP 디지털 지갑을 사용하면 다음과 같은 BlueXP 서비스의 라이선스를 관리할 수 있습니다.</block>
-  <block id="dad57e95fc9a5390302ad830888cbdb9" category="list-text">클라우드 백업</block>
-  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="list-text">클라우드 데이터 감지</block>
-  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="list-text">클라우드 계층화</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="list-text">온프레미스 ONTAP 클러스터</block>
   <block id="a4f0f752cbc0651ce6551bad053b1ae6" category="summary">BlueXP 디지털 지갑은 라이선스 및 구독에 대한 중앙 집중식 관리 및 모니터링을 제공합니다.</block>
@@ -240,15 +235,8 @@
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">* 케이스 종료 *: 케이스를 닫는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 클릭합니다.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">표의 마지막 열에서 메뉴를 선택한 후 수행할 수 있는 작업을 보여 주는 스크린샷</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4dc97d13f8afbf15e0936287290445d1" category="summary">BlueXP 디지털 지갑을 사용하면 Cloud Backup, Cloud Data Sense 및 Cloud Tiering과 함께 사용하기 위해 NetApp(BYOL)에서 직접 구입한 라이센스를 관리할 수 있습니다. 사용된 라이센스 용량, 남은 사용 가능 용량 등을 볼 수 있으며 용량 한도 또는 만료 날짜에 도달한 경우 알림을 볼 수 있습니다.</block>
   <block id="e9598339aeb07702e2b24ef63fca36cc" category="doc">BlueXP 데이터 서비스의 라이센스를 관리합니다</block>
   <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">이 페이지의 지침은 각 서비스에 적용되는 정보를 제공합니다. 이러한 서비스의 라이센스에 대한 자세한 내용은 다음 페이지를 참조하십시오.</block>
-  <block id="854a5b181af5166b0412d0786c77db0b" category="inline-link">Cloud Backup에 대한 라이센스 설정</block>
-  <block id="b984bca5aec62e5640849a3ce56f3a6c" category="list-text"><block ref="b984bca5aec62e5640849a3ce56f3a6c" category="inline-link-rx"></block></block>
-  <block id="0ed0a0ad5aadf8f8ef3ea382b8f4a106" category="inline-link">클라우드 데이터 센스에 대한 라이센스 설정</block>
-  <block id="b3b23402aeecfc18bdb1d8932564085d" category="list-text"><block ref="b3b23402aeecfc18bdb1d8932564085d" category="inline-link-rx"></block></block>
-  <block id="4b75686c0a14158ec6b99e93fbf1828b" category="inline-link">Cloud Tiering의 라이센스 설정</block>
-  <block id="f896a045834fbc7eb21af1d43d98136b" category="list-text"><block ref="f896a045834fbc7eb21af1d43d98136b" category="inline-link-rx"></block></block>
   <block id="73acd586df3bf9938d39f0e738d5c161" category="section-title">라이센스 파일을 얻습니다</block>
   <block id="f11bf973a6c8039ecfd0152979db21be" category="paragraph">라이센스를 구입한 후에는 일련 번호 및 NSS 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 BlueXP에서 라이센스를 활성화할 수 있습니다. 아래 단계에서는 NLF 라이센스 파일을 가져오는 방법을 보여 줍니다(해당 방법을 사용하려는 경우).</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support 사이트</block>
@@ -269,15 +257,10 @@
   <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">NSS 계정을 BlueXP에 추가합니다</block>
   <block id="3a7d2aab6d3f158a52978777da89804f" category="paragraph">드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우<block ref="6d9745cd4f1d60b55f06aef4c5cb6ec4" category="inline-link-rx"></block></block>
   <block id="6e2573cea3af840a0c24f94975047370" category="list-text">라이센스 파일이 있는 경우(BlueXP를 개인 모드에서 사용할 때 필요) * 라이센스 파일 업로드 * 옵션을 선택하고 메시지에 따라 파일을 첨부합니다.</block>
-  <block id="b91c77235ab93af32b475ca05ffa1ab2" category="inline-image-macro">Cloud Backup BYOL 라이센스를 추가하는 페이지를 보여 주는 스크린샷</block>
-  <block id="78364824176e311173787bc994b841d4" category="paragraph"><block ref="78364824176e311173787bc994b841d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9f7100a1f5980a935ee73427b4e84228" category="paragraph">BlueXP에서 라이센스를 추가합니다.</block>
   <block id="6c1c5737355a8b30e87ad5d7c6da9553" category="section-title">라이센스를 업데이트합니다</block>
-  <block id="f2325e725df0937d64ac12917b15a3b3" category="paragraph">사용 허가된 기간이 만료일에 가까워지고 있거나 사용 허가된 용량이 한도에 도달한 경우 Digital Wallet에서 알림을 받게 됩니다. BlueXP 데이터 서비스 사용에 방해가 되지 않도록 라이센스가 만료되기 전에 라이센스를 업데이트할 수 있습니다.</block>
   <block id="89ec6475bcd2a52ce9ca1c8fa843339e" category="inline-image-macro">Digital Wallet 페이지에 만료 중인 라이센스를 보여 주는 스크린샷.</block>
   <block id="b16535eaa5694c59eb7ff71777c5cd59" category="paragraph"><block ref="b16535eaa5694c59eb7ff71777c5cd59" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bb99d6c3efadbec99aeab8b89922e30d" category="list-text">BlueXP의 오른쪽 하단에 있는 채팅 아이콘을 클릭하거나 지원 부서에 문의하여 특정 일련 번호에 대한 라이선스의 연장 또는 추가 용량을 요청합니다.</block>
-  <block id="8061535eb5e8bab52c4a8a0fdc119d14" category="paragraph">라이센스 비용을 지불하고 NetApp Support 사이트에 등록한 후 BlueXP는 디지털 지갑의 라이센스를 자동으로 업데이트하고 데이터 서비스 라이센스 페이지에 변경 내용이 5-10분 내에 반영됩니다.</block>
   <block id="b74318cb9e5cf2bae938953860aade06" category="list-text">BlueXP에서 라이센스를 자동으로 업데이트할 수 없는 경우(예: 비공개 모드에서 BlueXP 사용 시) 라이센스 파일을 수동으로 업로드해야 합니다.</block>
   <block id="b2b168bd64a341a85c749cb61bba40cb" category="inline-xref">NetApp Support 사이트에서 라이센스 파일을 받으십시오</block>
   <block id="5281a9b97c306047dc796d618670919d" category="list-text">가능합니다 <block ref="2ee9df93e68c4a0ffa870dc00950ab97" category="inline-xref-macro-rx"></block>.</block>
@@ -324,22 +307,18 @@
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">이메일 알림</block>
-  <block id="a08572617e25a61e8569807ac103ab07" category="paragraph">이제 디지털 지갑에서 이메일 알림이 지원됩니다.</block>
   <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">알림 설정을 구성하는 경우 BYOL 라이센스가 만료될 때("경고" 알림) 또는 이미 만료된 경우("오류" 알림) 이메일 알림을 받을 수 있습니다.</block>
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">이메일 알림을 설정하는 방법에 대해 알아봅니다</block>
   <block id="497d867daded8927a3cf934337006373" category="paragraph"><block ref="497d867daded8927a3cf934337006373" category="inline-link-rx"></block></block>
   <block id="164bf9dea8d8396a2e7501258b908616" category="section-title">마켓플레이스 서브스크립션을 위한 라이선스 용량</block>
-  <block id="1b8d4ee3ff5e577bc8524d6a5e73790e" category="paragraph">Cloud Volumes ONTAP에 대한 용량 기반 라이센스를 볼 때 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">계정에서 사용된 용량을 확인하는 방법에 대해 알아봅니다</block>
   <block id="1e9f781ad3dabc2f942313854ce94883" category="paragraph"><block ref="bcd8bf14da5e102dbc4b48dd0870869e" category="inline-link-rx"></block>.</block>
   <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022년 11월 6일</block>
   <block id="36e33f823d687cad39366d44fd0b326d" category="section-title">가입 및 연간 계약</block>
-  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="paragraph">이제 BlueXP에 대한 PAYGO 구독 및 연간 계약을 디지털 지갑에서 보고 관리할 수 있습니다.</block>
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">구독을 관리하는 방법에 대해 알아봅니다</block>
   <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block>.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="b269d65b4fd592fc59288f3c9c3917b9" category="section-title">최적화된 I/O 및 WORM 용량</block>
-  <block id="e1de90a0937196074c7abb9f8b5e5edf" category="paragraph">이제 디지털 지갑에 최적화된 I/O 라이센스 패키지 및 사용자 계정의 Cloud Volumes ONTAP 시스템에 대해 프로비저닝된 WORM 용량에 대한 요약이 표시됩니다.</block>
   <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">이러한 세부 정보를 통해 청구 방식 및 추가 용량 구매 여부를 보다 잘 파악할 수 있습니다.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="b69737a8aa6d54e160fd215ef53825b5" category="section-title">충전 방법을 변경하십시오</block>
@@ -348,9 +327,6 @@
   <block id="8c8503ff8c21813561363b608190163e" category="paragraph"><block ref="24cab88ee4e7cc87558a54f6745deabe" category="inline-link-rx"></block>.</block>
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022년 7월 3일</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">사용된 용량</block>
-  <block id="d5503d6062daaaa4326462970164cbac" category="paragraph">이제 Digital Wallet은 사용자 계정의 총 소비된 용량과 라이센스 패키지별 소비된 용량을 표시합니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.</block>
-  <block id="232ac716fdabb7e9b9ba7c3a108574a7" category="inline-image-macro">용량 기반 라이센스에 대한 Digital Wallet 페이지를 보여 주는 스크린샷 이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고 라이센스 패키지를 통해 사용된 용량을 나눕니다.</block>
-  <block id="998e6cc07bc5c3b4a2329ad21093316c" category="paragraph"><block ref="998e6cc07bc5c3b4a2329ad21093316c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022년 2월 27일</block>
   <block id="ad542dc76a1c13d716648648c7052561" category="section-title">사내 ONTAP 클러스터에 대한 라이센스</block>
   <block id="cc6992a66b9fc6bd5f23a20beff49e2a" category="paragraph">이제 하드웨어 및 서비스 계약 만료일과 함께 온프레미스 ONTAP 클러스터의 인벤토리를 볼 수 있습니다. 클러스터에 대한 추가 정보도 제공됩니다.</block>
@@ -358,7 +334,6 @@
   <block id="770294ba582707dbf5d21f7add8b531e" category="paragraph"><block ref="d28003d0743d6fc8a920f6982b9bd603" category="inline-link-rx"></block>.</block>
   <block id="586301717819197e24001cac47efdaaa" category="section-title">2022년 1월 2일</block>
   <block id="d5ce756f503ae6211b9ef6c827e757be" category="section-title">라이선스 조건이 자동으로 업데이트됩니다</block>
-  <block id="310c945b52669c8754bf13907cbb5859" category="paragraph">라이센스 용량 또는 기간을 변경하면 이제 Digital Wallet에서 라이센스 조건이 자동으로 업데이트됩니다. 라이센스를 직접 업데이트할 필요는 없습니다.</block>
   <block id="b2d68f8e07e0e6ca8d81ba9d15e96e7e" category="paragraph">자동 라이선스 업데이트는 모든 유형의 Cloud Volumes ONTAP 라이선스와 데이터 서비스에 대한 모든 라이선스에서 작동합니다.</block>
   <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">BlueXP 디지털 지갑을 사용하면 각 온프레미스 ONTAP 클러스터에 대한 계약 세부 정보를 볼 수 있습니다. BlueXP에서 아직 클러스터를 발견하지 못한 경우 디지털 지갑에서도 이를 확인할 수 있습니다.</block>
   <block id="dc8526e1d318113e071717b2a8bb27b7" category="doc">사내 ONTAP 클러스터에 대한 라이센스 관리</block>
@@ -400,16 +375,12 @@
   <block id="2b3c797a98693bc95eb014beb60621b8" category="list-text"><block ref="2b3c797a98693bc95eb014beb60621b8" category="inline-link-rx"></block></block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">검색된 클러스터를 직접 관리하는 방법에 대해 알아보십시오</block>
   <block id="99d7f3ff9fb7308bda3abc7d58891657" category="list-text"><block ref="99d7f3ff9fb7308bda3abc7d58891657" category="inline-link-rx"></block></block>
-  <block id="4d17b7f0d1f8c0ae69c0ec8d32fea349" category="summary">클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 Digital Wallet에서 각 구독을 관리할 수 있습니다.</block>
   <block id="b01b1be092b95233172f870dc729234b" category="doc">PAYGO 구독 및 계약 관리</block>
   <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">구독 정보를 확인하십시오</block>
-  <block id="9c1b3fb5f48f73ce89025933ec931382" category="paragraph">Digital Wallet은 BlueXP 계정 및 Astra(Astra는 BlueXP의 충전 서비스를 사용)와 관련된 각 PAYGO 가입 및 연간 계약에 대한 세부 정보를 제공합니다.</block>
   <block id="8c3682e85d7f4dbe8a46485082335dec" category="list-text">구독 * 을 선택합니다.</block>
   <block id="1422eb9c77ef6c74d6abe35beedc5d64" category="paragraph">현재 보고 있는 계정과 연결된 구독만 표시됩니다.</block>
   <block id="572e470335e0a6d55da05c732a01aed3" category="list-text">구독에 대한 정보를 볼 때 다음과 같이 표의 세부 정보와 상호 작용할 수 있습니다.</block>
   <block id="6a1de13d318f22872902849cd26467b4" category="list-text">행을 확장하여 자세한 내용을 봅니다.</block>
-  <block id="d61aec883b403c61da2d8d8e19d78473" category="inline-image-macro">Digital Wallet의 Subscriptions(구독) 탭에 있는 스크린샷으로, 행 끝에 있는 화살표를 선택하여 확장할 수 있습니다.</block>
-  <block id="3a9d2caf2b3b63f1b3ab7d00e469b158" category="paragraph"><block ref="3a9d2caf2b3b63f1b3ab7d00e469b158" category="inline-image-macro-rx" type="image"></block></block>
   <block id="56594b7222b35921f9fe676eadf6bbdf" category="inline-image-macro">표 헤더 끝에 있는 더하기 아이콘입니다</block>
   <block id="33d90cc16eaedf37738a3faf06f00f36" category="list-text">를 선택합니다 <block ref="98b11313fea6c4106e5a3c018f0ffbc9" category="inline-image-macro-rx" type="image"></block> 테이블에 표시할 열을 선택합니다.</block>
   <block id="c090ce3dc0b8ea780bfa95c666328c67" category="paragraph">용어 및 자동 갱신 열은 기본적으로 표시되지 않습니다. 자동 갱신 열에는 Azure 계약에 대한 갱신 정보만 표시됩니다.</block>
@@ -419,11 +390,8 @@
   <block id="382b0f5185773fa0f67a8ed8056c7759" category="list-text">해당 없음</block>
   <block id="716e98867696fbbeed00e3dcd1f76758" category="list-text">테이블에 해당 없음 이 표시되면 현재 클라우드 공급자의 API에서 해당 정보를 사용할 수 없습니다.</block>
   <block id="cd494d76449d5dfe0c0adfb2f3447761" category="list-text">계약</block>
-  <block id="8090b542b799e2f0268fddd048d44eda" category="list-text">계약에 대한 세부 정보를 확장하면 Digital Wallet에 현재 계획에 사용할 수 있는 계약 옵션 및 단위(용량 또는 노드 수)가 표시됩니다.</block>
-  <block id="7f96d1365390f4c6a7c1befe0b068769" category="list-text">Digital Wallet은 종료 날짜 및 계약이 곧 갱신될지, 곧 종료될지, 이미 종료되었는지 여부를 식별합니다.</block>
   <block id="def1d5f1d4a6db4b59f941bed287221d" category="list-text">AWS 계약이 있고 시작 날짜 이후에 계약 옵션을 변경한 경우, AWS Marketplace에서 계약 옵션을 확인해야 합니다.</block>
   <block id="6942b724002d90bb0f705f478cdd6bf3" category="section-title">구독을 관리합니다</block>
-  <block id="ac3dad7b0d90a8896f44e77f84726619" category="paragraph">구독의 이름을 바꾸고 구독과 연결된 계정을 선택하여 Digital Wallet에서 구독을 관리할 수 있습니다.</block>
   <block id="0c3ef8839b737ed6600351348aace81b" category="paragraph">예를 들어, 두 개의 계정이 있고 각각 별도의 구독을 통해 비용이 청구된다고 가정해 보겠습니다. Cloud Volumes ONTAP 작업 환경을 만들 때 해당 계정의 사용자가 실수로 잘못된 구독을 선택하지 않도록 계정 중 하나에서 구독을 연결 해제할 수 있습니다.</block>
   <block id="e97d1d1134e32a84fb4d6d796e3e56a9" category="list-text">관리할 구독에 해당하는 행에서 작업 메뉴를 선택합니다.</block>
   <block id="1dea06c0cd8c3b77e4597670a860c155" category="inline-image-macro">구독에 대한 작업 메뉴 스크린샷</block>
@@ -431,7 +399,6 @@
   <block id="1201c1bd99e40a424aee33ac62838b92" category="list-text">가입 이름을 바꾸거나 가입과 연결된 BlueXP 계정을 관리하도록 선택합니다.</block>
   <block id="7e3a4c0ec1aee45acf094839bb9c449f" category="summary">디지털 지갑에서 노드 기반 라이센스를 관리하여 각 Cloud Volumes ONTAP 시스템에 필요한 용량의 유효한 라이센스가 있는지 확인합니다.</block>
   <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">노드 기반 라이센스 관리</block>
-  <block id="15d021d83ccb68dbaf63683ce6741fee" category="paragraph">디지털 지갑에서 노드 기반 라이센스를 관리하여 각 Cloud Volumes ONTAP 시스템에 필요한 용량의 유효한 라이센스가 있는지 확인합니다.</block>
   <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">_ 노드 기반 라이센스 _ 은(는) 이전 세대 라이센스 모델입니다(신규 고객은 사용할 수 없습니다).</block>
   <block id="81f9d97336a30fb7be6f8d770fee25eb" category="list-text">NetApp에서 BYOL 라이센스를 구입함</block>
   <block id="17ac9e85cf5b6f7b77acf61fb7721242" category="list-text">클라우드 공급자 마켓플레이스에서 시간별 PAYGO(Pay-as-you-go) 구독을 지원합니다</block>
@@ -549,4 +516,37 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="49f326995814ee311b340478f99f992f" category="doc">BlueXP 디지털 전자지갑 설명서</block>
+  <block id="d73d2254cb7a33ffdc126efbce99e623" category="list-text">BlueXP 계정 및 Astra Control과 관련된 PAYGO 구독 및 연간 계약을 관리합니다</block>
+  <block id="bf4700247951934a88713e31aa00a0a6" category="paragraph">BlueXP 디지털 지갑을 사용하면 다음 라이센스를 관리할 수 있습니다.</block>
+  <block id="be062cdcabbb3055334e8f19b4bdf378" category="list-text">백업 및 복구</block>
+  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="list-text">분류</block>
+  <block id="337c62c6b6eb7319bae58701105e889c" category="list-text">계층화</block>
+  <block id="fd75ff71faa02dfc85d4684cc9a98740" category="summary">BlueXP 디지털 지갑을 사용하면 BlueXP 백업 및 복구, 분류 및 계층화에 사용하기 위해 NetApp(BYOL)에서 직접 구매한 라이센스를 관리할 수 있습니다. 사용된 라이센스 용량, 남은 사용 가능 용량 등을 볼 수 있으며 용량 한도 또는 만료 날짜에 도달한 경우 알림을 볼 수 있습니다.</block>
+  <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">BlueXP 백업 및 복구에 대한 라이센스를 설정합니다</block>
+  <block id="10ec558978234bae716554274b27c5bc" category="list-text"><block ref="10ec558978234bae716554274b27c5bc" category="inline-link-rx"></block></block>
+  <block id="6212c283c0695ee1a154f1a6cdde74ef" category="inline-link">BlueXP 분류 라이선스를 설정합니다</block>
+  <block id="393acb1dea64f92d858ed4b9c5d6deda" category="list-text"><block ref="393acb1dea64f92d858ed4b9c5d6deda" category="inline-link-rx"></block></block>
+  <block id="8202299929ccdfe388049a03c2c36d60" category="inline-link">BlueXP 계층화에 대한 라이센스를 설정합니다</block>
+  <block id="7446ed3e56afcef7894742c01a3465b0" category="list-text"><block ref="7446ed3e56afcef7894742c01a3465b0" category="inline-link-rx"></block></block>
+  <block id="f5b39d30a98c93c6a597de76a3901496" category="inline-image-macro">BYOL 라이센스를 추가하는 페이지를 보여 주는 스크린샷</block>
+  <block id="2ab8c9555cb0a7278c9c119126d09972" category="paragraph"><block ref="2ab8c9555cb0a7278c9c119126d09972" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8d16d75f7a68c03867a9fa6a0c1e8e53" category="paragraph">라이센스 기간이 만료일에 가까워지고 있거나 라이센스 용량이 한도에 도달한 경우 BlueXP 디지털 지갑에 알림이 표시됩니다. BlueXP 데이터 서비스 사용에 방해가 되지 않도록 라이센스가 만료되기 전에 라이센스를 업데이트할 수 있습니다.</block>
+  <block id="2778ca24e217e309a35a740dcd70d977" category="list-text">BlueXP의 오른쪽 하단에 있는 채팅 아이콘을 클릭하거나 지원 부서에 문의하여 특정 일련 번호에 대한 라이선스의 연장 또는 추가 용량을 요청합니다.</block>
+  <block id="1b87732cda1ee77b5952013e06e1ac10" category="paragraph">라이센스 비용을 지불하고 NetApp Support 사이트에 등록한 후 BlueXP는 자동으로 디지털 지갑의 라이센스를 업데이트하고 데이터 서비스 라이센스 페이지에 변경 내용이 5-10분 내에 반영됩니다.</block>
+  <block id="d128bda2634e1051cc984231da065144" category="paragraph">이제 이메일 알림이 BlueXP 디지털 지갑에서 지원됩니다.</block>
+  <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">Cloud Volumes ONTAP에 대한 용량 기반 라이센스를 볼 때 BlueXP 디지털 지갑에 시장 프라이빗 오퍼와 함께 구입한 라이센스 용량이 표시됩니다.</block>
+  <block id="b3e680bd6b6b80e2fd4f5bd19f3ad015" category="paragraph">이제 BlueXP 디지털 지갑에서 PAYGO 구독 및 BlueXP 연간 계약을 보고 관리할 수 있습니다.</block>
+  <block id="dfc3d3012360c41f119ce032ebb3ed8b" category="paragraph">BlueXP 디지털 지갑에 최적화된 I/O 라이센스 패키지와 사용자 계정 전체에서 Cloud Volumes ONTAP 시스템에 대해 프로비저닝된 WORM 용량에 대한 요약 정보가 표시됩니다.</block>
+  <block id="290fbe7a9d91cd4191566b8d26837eb2" category="paragraph">이제 계정에 사용된 총 용량과 라이센스 패키지별 사용된 용량을 표시합니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.</block>
+  <block id="61589f40a840f6f60d0d36160690dc0e" category="inline-image-macro">용량 기반 라이센스 페이지를 보여 주는 스크린샷 이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고 라이센스 패키지를 통해 사용된 용량을 나눕니다.</block>
+  <block id="ec263309aca016e16fe4380d1c571c9e" category="paragraph"><block ref="ec263309aca016e16fe4380d1c571c9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ccb04438d71ca79f2a97704ba47b5adf" category="paragraph">라이센스 용량 또는 기간을 변경하면 라이센스 조건이 에서 자동으로 업데이트됩니다. 라이센스를 직접 업데이트할 필요는 없습니다.</block>
+  <block id="682e041ff00069faf1e43f1e418221a6" category="summary">클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 BlueXP 디지털 지갑에서 각 구독을 관리할 수 있습니다.</block>
+  <block id="65459c618528464246bc4dd16dea72ba" category="paragraph">BlueXP 디지털 지갑은 BlueXP 계정 및 Astra Control(Astra Control은 BlueXP의 충전 서비스를 사용)과 관련된 각 PAYGO 가입 및 연간 계약에 대한 세부 정보를 제공합니다.</block>
+  <block id="69cda14c45037fc1c766e6b7626c706b" category="inline-image-macro">디지털 지갑의 구독 탭 스크린샷 - 행 끝에 있는 화살표를 선택하여 확장할 수 있습니다.</block>
+  <block id="d6e80e5ccdacdc912b76ab91b58f6023" category="paragraph"><block ref="d6e80e5ccdacdc912b76ab91b58f6023" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="41f51117bfa13081af4c8a2db1a7ab58" category="list-text">계약에 대한 세부 정보를 확장하면 BlueXP 디지털 지갑에 현재 계획에 사용할 수 있는 계약 옵션 및 단위(용량 또는 노드 수)가 표시됩니다.</block>
+  <block id="25b3c421a2199fb638256d316af13699" category="list-text">BlueXP 디지털 지갑은 종료 날짜를 식별하고 계약이 곧 갱신될지, 곧 종료될지, 이미 종료되었는지 여부를 나타냅니다.</block>
+  <block id="c2e2efadf42aef45b4e8e6b176f32df0" category="paragraph">가입 이름을 변경하고 가입과 연결된 계정을 선택하여 BlueXP 디지털 지갑에서 구독을 관리할 수 있습니다.</block>
+  <block id="5a91158751eaabe4d195cd633fa37db6" category="paragraph">디지털 지갑에서 노드 기반 라이센스를 관리하여 각 Cloud Volumes ONTAP 시스템에 필요한 용량의 유효한 라이센스가 있는지 확인합니다.</block>
 </blocks>

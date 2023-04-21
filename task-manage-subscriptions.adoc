@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-subscriptions.html 
 keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts 
-summary: 클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 Digital Wallet에서 각 구독을 관리할 수 있습니다. 
+summary: 클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 BlueXP 디지털 지갑에서 각 구독을 관리할 수 있습니다. 
 ---
 = PAYGO 구독 및 계약 관리
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: 클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하�
 
 
 [role="lead"]
-클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 Digital Wallet에서 각 구독을 관리할 수 있습니다.
+클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 BlueXP 디지털 지갑에서 각 구독을 관리할 수 있습니다.
 
 
 
 == 구독 정보를 확인하십시오
 
-Digital Wallet은 BlueXP 계정 및 Astra(Astra는 BlueXP의 충전 서비스를 사용)와 관련된 각 PAYGO 가입 및 연간 계약에 대한 세부 정보를 제공합니다.
+BlueXP 디지털 지갑은 BlueXP 계정 및 Astra Control(Astra Control은 BlueXP의 충전 서비스를 사용)과 관련된 각 PAYGO 가입 및 연간 계약에 대한 세부 정보를 제공합니다.
 
 .단계
 . BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
@@ -32,7 +32,7 @@ Digital Wallet은 BlueXP 계정 및 Astra(Astra는 BlueXP의 충전 서비스를
 +
 ** 행을 확장하여 자세한 내용을 봅니다.
 +
-image:screenshot-subscriptions-expand.png["Digital Wallet의 Subscriptions(구독) 탭에 있는 스크린샷으로, 행 끝에 있는 화살표를 선택하여 확장할 수 있습니다."]
+image:screenshot-subscriptions-expand.png["디지털 지갑의 구독 탭 스크린샷 - 행 끝에 있는 화살표를 선택하여 확장할 수 있습니다."]
 
 ** 를 선택합니다 image:icon-column-selector.png["표 헤더 끝에 있는 더하기 아이콘입니다"] 테이블에 표시할 열을 선택합니다.
 +
@@ -49,8 +49,8 @@ image:screenshot-subscriptions-expand.png["Digital Wallet의 Subscriptions(구�
 계약::
 +
 --
-** 계약에 대한 세부 정보를 확장하면 Digital Wallet에 현재 계획에 사용할 수 있는 계약 옵션 및 단위(용량 또는 노드 수)가 표시됩니다.
-** Digital Wallet은 종료 날짜 및 계약이 곧 갱신될지, 곧 종료될지, 이미 종료되었는지 여부를 식별합니다.
+** 계약에 대한 세부 정보를 확장하면 BlueXP 디지털 지갑에 현재 계획에 사용할 수 있는 계약 옵션 및 단위(용량 또는 노드 수)가 표시됩니다.
+** BlueXP 디지털 지갑은 종료 날짜를 식별하고 계약이 곧 갱신될지, 곧 종료될지, 이미 종료되었는지 여부를 나타냅니다.
 ** AWS 계약이 있고 시작 날짜 이후에 계약 옵션을 변경한 경우, AWS Marketplace에서 계약 옵션을 확인해야 합니다.
 
 
@@ -63,7 +63,7 @@ image:screenshot-subscriptions-expand.png["Digital Wallet의 Subscriptions(구�
 
 == 구독을 관리합니다
 
-구독의 이름을 바꾸고 구독과 연결된 계정을 선택하여 Digital Wallet에서 구독을 관리할 수 있습니다.
+가입 이름을 변경하고 가입과 연결된 계정을 선택하여 BlueXP 디지털 지갑에서 구독을 관리할 수 있습니다.
 
 예를 들어, 두 개의 계정이 있고 각각 별도의 구독을 통해 비용이 청구된다고 가정해 보겠습니다. Cloud Volumes ONTAP 작업 환경을 만들 때 해당 계정의 사용자가 실수로 잘못된 구독을 선택하지 않도록 계정 중 하나에서 구독을 연결 해제할 수 있습니다.
 
