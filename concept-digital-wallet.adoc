@@ -23,7 +23,7 @@ BlueXP 디지털 지갑을 사용하면 NetApp(BYOL), BlueXP 마켓플레이스 
 * Cloud Volumes ONTAP에 대한 용량 기반 및 노드 기반 라이센스 관리
 * BlueXP 데이터 서비스에 대한 라이센스를 추가하고 관리합니다
 * BlueXP 계정 및 Astra Control과 관련된 PAYGO 구독 및 연간 계약을 관리합니다
-* Cloud Volumes ONTAP에 사용할 Keystone 유연한 구독을 관리하고 확정된 용량을 변경할 것을 요청합니다
+* Cloud Volumes ONTAP에 사용할 Keystone 가입 서비스를 관리하고 확정된 용량을 변경하십시오
 * 온프레미스 ONTAP 클러스터에 대한 하드웨어 및 소프트웨어 계약 상태 정보를 봅니다
 
 
