@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-keystone.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel='stylesheet' href='/ko-kr/bluexp-digital-wallet/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -176,7 +177,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/issues/new?body=Page%3A%20[Keystone 가입 서비스 관리](https://docs.netapp.com/ko-kr/bluexp-digital-wallet/task-manage-keystone.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/ko-kr/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-keystone.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet.ko-kr/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ko-kr/bluexp-digital-wallet/task-manage-keystone.html&page-title=Keystone 가입 서비스 관리" class="page-nav-contribute-link" role="button"><img src="/ko-kr/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-keystone.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -269,8 +270,8 @@
           data-did-you-mean="{suggestion}을(를) 검색해보십시오."
           data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?"
           data-results-found="{hitCount}개의 결과를 찾음"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="죄송합니다. 결과를 가져오는 도중 문제가 발생했습니다. 다시 시도해 주십시오."
+          data-error-reset="검색 재설정"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -311,6 +312,8 @@
           <a href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -688,7 +691,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-08 14:13:11 +0000">05/08/2023</time>
+    <time datetime="2023-05-24 00:16:51 +0000">05/24/2023</time>
     
   
 
@@ -701,13 +704,13 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>Cloud Volumes ONTAP에서 사용할 수 있도록 구독을 활성화하여 디지털 지갑에서 Keystone Flex 구독을 관리하십시오. 또한 커밋된 용량에 대한 변경 내용을 요청하고 구독 연결을 해제할 수 있습니다.</p>
+<p>Cloud Volumes ONTAP에서 사용할 수 있도록 구독을 활성화하여 BlueXP 디지털 지갑에서 Keystone 가입을 관리하십시오. 또한 커밋된 용량에 대한 변경 내용을 요청하고 구독 연결을 해제할 수 있습니다.</p>
 </div>
 <div class="paragraph">
-<p>Keystone Flex Subscription_ 은 NetApp에서 제공하는 성장에 따른 지불 스토리지 서비스입니다.</p>
+<p>Keystone 가입 _ 은 NetApp이 제공하는 종량제 스토리지 서비스입니다.</p>
 </div>
 <div class="paragraph">
-<p>디지털 지갑 _ 을(를) 사용하면 단일 위치에서 Cloud Volumes ONTAP에 대한 라이선스를 관리할 수 있습니다. 새 라이센스를 추가하고 기존 라이센스를 업데이트할 수 있습니다.</p>
+<p>BlueXP 디지털 지갑 _ 을(를) 사용하면 한 곳에서 Cloud Volumes ONTAP에 대한 라이센스를 관리할 수 있습니다. 새 라이센스를 추가하고 기존 라이센스를 업데이트할 수 있습니다.</p>
 </div>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html">"Cloud Volumes ONTAP 라이센스에 대해 자세히 알아보십시오"</a>.</p>
@@ -718,7 +721,7 @@
 <h2 id="계정을-인증합니다">계정을 인증합니다</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>BlueXP에서 Keystone Flex 서브스크립션을 사용하고 관리하려면 먼저 NetApp에 문의하여 Keystone Flex 구독으로 BlueXP 사용자 계정을 인증해야 합니다.</p>
+<p>BlueXP에서 Keystone 등록을 사용하고 관리하려면 NetApp에 문의하여 Keystone 구독으로 BlueXP 사용자 계정을 인증해야 합니다.</p>
 </div>
 <div class="olist arabic">
 <div class="title">단계</div>
@@ -736,9 +739,9 @@
 </div>
 </li>
 <li>
-<p>가입을 보려면 * Keystone Flex 가입 * 으로 되돌아오십시오.</p>
+<p>가입을 보려면 * Keystone 가입 * 으로 돌아갑니다.</p>
 <div class="paragraph">
-<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot-keystone-overview.png" alt="Keystone Flex 가입 목록을 보여주는 스크린샷"></span></p>
+<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot-keystone-overview.png" alt="Keystone 가입 목록을 보여주는 스크린샷"></span></p>
 </div>
 </li>
 </ol>
@@ -753,7 +756,7 @@
 <h2 id="구독-링크">구독 링크</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>NetApp에서 사용자 계정을 승인한 후 Cloud Volumes ONTAP에 사용할 수 있도록 Keystone 유연한 구독을 연결해야 합니다. 이 작업을 통해 사용자는 새 Cloud Volumes ONTAP 시스템의 충전 방법으로 구독을 선택할 수 있습니다.</p>
+<p>NetApp에서 사용자 계정을 승인한 후 Cloud Volumes ONTAP에 사용할 수 있도록 Keystone 구독을 연결해야 합니다. 이 작업을 통해 사용자는 새 Cloud Volumes ONTAP 시스템의 충전 방법으로 구독을 선택할 수 있습니다.</p>
 </div>
 <div class="olist arabic">
 <div class="title">단계</div>
@@ -817,7 +820,7 @@
 <h2 id="구독-연결을-해제합니다">구독 연결을 해제합니다</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>새 Cloud Volumes ONTAP 시스템에 Keystone Flex 서브스크립션을 더 이상 사용하지 않으려면 가입을 연결 해제할 수 있습니다. 기존 Cloud Volumes ONTAP 구독에 연결되지 않은 구독만 연결 해제할 수 있습니다.</p>
+<p>새 Cloud Volumes ONTAP 시스템에 Keystone 가입을 더 이상 사용하지 않으려면 가입을 연결 해제할 수 있습니다. 기존 Cloud Volumes ONTAP 구독에 연결되지 않은 구독만 연결 해제할 수 있습니다.</p>
 </div>
 <div class="olist arabic">
 <div class="title">단계</div>
