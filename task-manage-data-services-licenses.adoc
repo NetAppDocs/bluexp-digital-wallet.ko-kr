@@ -10,7 +10,7 @@ summary: 'BlueXP 디지털 지갑을 사용하면 BlueXP 백업 및 복구, 분�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-backup-restore/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-backup-recovery/media/
 
 
 [role="lead"]
@@ -18,9 +18,9 @@ BlueXP 디지털 지갑을 사용하면 BlueXP 백업 및 복구, 분류 및 계
 
 이 페이지의 지침은 각 서비스에 적용되는 정보를 제공합니다. 이러한 서비스의 라이센스에 대한 자세한 내용은 다음 페이지를 참조하십시오.
 
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["BlueXP 백업 및 복구에 대한 라이센스를 설정합니다"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["BlueXP 분류 라이선스를 설정합니다"^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["BlueXP 계층화에 대한 라이센스를 설정합니다"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["BlueXP 백업 및 복구에 대한 라이센스를 설정합니다"^]
+* https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html["BlueXP 분류 라이선스를 설정합니다"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["BlueXP 계층화에 대한 라이센스를 설정합니다"^]
 
 
 
@@ -58,7 +58,7 @@ BlueXP 데이터 서비스에 대한 라이센스를 구입한 후에는 BlueXP�
 +
 ** 일련 번호가 있고 NSS 계정을 알고 있는 경우 * 일련 번호 입력 * 옵션을 선택하고 해당 정보를 입력합니다.
 +
-드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["NSS 계정을 BlueXP에 추가합니다"^]
+드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NSS 계정을 BlueXP에 추가합니다"^]
 
 ** 라이센스 파일이 있는 경우(BlueXP를 개인 모드에서 사용할 때 필요) * 라이센스 파일 업로드 * 옵션을 선택하고 메시지에 따라 파일을 첨부합니다.
 +

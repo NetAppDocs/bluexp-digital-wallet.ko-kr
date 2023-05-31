@@ -19,8 +19,8 @@ BlueXP 디지털 지갑을 사용하면 각 온프레미스 ONTAP 클러스터�
 .시작하기 전에
 BlueXP 디지털 지갑에는 작업 환경으로 발견했거나 BlueXP에 추가한 NetApp Support 사이트 계정과 연결된 온프레미스 ONTAP 클러스터에 대한 세부 정보가 표시됩니다.
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["사내 ONTAP 클러스터를 검색하는 방법에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["BlueXP 계정과 연결된 NSS 자격 증명을 관리하는 방법에 대해 알아봅니다"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["사내 ONTAP 클러스터를 검색하는 방법에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["BlueXP 계정과 연결된 NSS 자격 증명을 관리하는 방법에 대해 알아봅니다"^]
 
 
 
@@ -54,7 +54,7 @@ image:screenshot_digital_wallet_license_info.png["클러스터 라이센스 정�
 .시작하기 전에
 검색 및 관리 옵션(Connector를 사용한 검색 또는 Connector를 사용하지 않는 직접 검색)과 검색 요구 사항을 이해해야 합니다.
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["검색 옵션 및 요구 사항에 대해 알아보십시오"^].
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["검색 옵션 및 요구 사항에 대해 알아보십시오"^].
 
 .단계
 . BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
@@ -85,6 +85,6 @@ image:screenshot_onprem_cluster.png["Canvas의 온프레미스 ONTAP 클러스�
 
 이제 클러스터 관리를 시작할 수 있습니다.
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html["Connector로 검색된 클러스터를 관리하는 방법에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["검색된 클러스터를 직접 관리하는 방법에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["Connector로 검색된 클러스터를 관리하는 방법에 대해 알아보십시오"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["검색된 클러스터를 직접 관리하는 방법에 대해 알아보십시오"^]
 

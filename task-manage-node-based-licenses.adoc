@@ -10,7 +10,7 @@ summary: 디지털 지갑에서 노드 기반 라이센스를 관리하여 각 C
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ _ 노드 기반 라이센스 _ 은(는) 이전 세대 라이센스 모델입니�
 
 BlueXP 디지털 지갑 _ 을(를) 사용하면 한 곳에서 Cloud Volumes ONTAP에 대한 라이센스를 관리할 수 있습니다. 새 라이센스를 추가하고 기존 라이센스를 업데이트할 수 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP 라이센스에 대해 자세히 알아보십시오"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP 라이센스에 대해 자세히 알아보십시오"].
 
 
 
@@ -224,10 +224,10 @@ BlueXP가 변환 프로세스를 시작합니다. 이 프로세스의 일부로 
 . 새 Cloud Volumes ONTAP 작업 환경을 만듭니다.
 . 복제해야 하는 각 볼륨에 대해 시스템 간에 일회성 데이터 복제를 설정합니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["시스템 간에 데이터를 복제하는 방법에 대해 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["시스템 간에 데이터를 복제하는 방법에 대해 알아보십시오"^]
 
 . 원래 작업 환경을 삭제하여 더 이상 필요하지 않은 Cloud Volumes ONTAP 시스템을 종료합니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deleting-working-env.html["Cloud Volumes ONTAP 작업 환경을 삭제하는 방법에 대해 알아봅니다"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-working-env.html["Cloud Volumes ONTAP 작업 환경을 삭제하는 방법에 대해 알아봅니다"].
 
 
