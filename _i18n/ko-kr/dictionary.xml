@@ -442,7 +442,6 @@
   <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">높은 수준의 사용</block>
   <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">스토리지 VM 사용량</block>
   <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">볼륨 사용량</block>
-  <block id="8156321649d649dc3e16c2849d8aa212" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="862b3811f42dd37621050f0605c0d301" category="inline-link-macro-rx"></block>.</block>
   <block id="76631958e748db22b905b65fb2cba5d2" category="paragraph">Google Cloud의 경우, 프라이빗 오퍼와 연결된 마켓플레이스 구독을 식별할 수 있으며, 이를 통해 오퍼를 성공적으로 수락했는지 확인할 수 있습니다.</block>
   <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">기간</block>
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Google Cloud 구독이 프라이빗 오퍼와 연결되어 있고 해당 프라이빗 오퍼가 생성 및 수락된 후 수정된 경우 해당 용어에 N/A가 표시됩니다 이 시나리오에서는 Google Cloud Marketplace로부터 수신한 API 응답에 용어 관련 정보가 포함되지 않습니다.</block>
@@ -607,7 +606,7 @@
   <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">이제 작업 환경 이름이 스토리지 VM 및 볼륨 사용 보고서에 포함됩니다.</block>
   <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">이제 볼륨 type_file_은 _Primary(읽기/쓰기)_로 레이블이 지정됩니다.</block>
   <block id="af30dca925032347d49fd49d710f0164" category="list-text">이제 볼륨 type_secondary_이(가) _Secondary(DP)_로 표시됩니다.</block>
-  <block id="2bb2d72e1ff09fcf49ad52f3b153b014" category="paragraph">사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오<block ref="8b82f3e29419f7f039b88f8e9f60bf47" category="inline-link-rx"></block></block>
   <block id="4a9ebfe4f0e3302083955176f47a9519" category="list-text">작업 환경 ID 및 이름(UUID로 표시됨)</block>
   <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">워크로드 유형</block>
+  <block id="7cc7b7a6d80d31d0e4806abd9de3d8f3" category="paragraph">사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오<block ref="a7d17f594b62c1bde4179fc580d7da6f" category="inline-link-rx"></block>.</block>
 </blocks>

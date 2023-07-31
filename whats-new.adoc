@@ -34,7 +34,7 @@ BlueXP 디지털 지갑의 새로운 기능에 대해 알아보십시오.
 * 이제 볼륨 type_secondary_이(가) _Secondary(DP)_로 표시됩니다.
 
 
-사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"^]
+사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"].
 
 
 
@@ -58,7 +58,7 @@ BlueXP 디지털 지갑은 이제 개인 오퍼와 관련된 Google Cloud Market
 * 볼륨 사용량
 
 
-자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["용량 기반 라이센스 관리"].
+사용 현황 보고서에 대한 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["사용 보고서를 다운로드합니다"].
 
 
 
