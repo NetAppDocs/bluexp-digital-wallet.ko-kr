@@ -13,7 +13,9 @@ sidebar:
   - title: BlueXP 디지털 지갑 문서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/whats-new.html"
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
   - title: 시작하십시오
     entries:
     - title: BlueXP 디지털 지갑에 대해 알아보십시오
@@ -30,7 +32,7 @@ sidebar:
       url: "/task-manage-data-services-licenses.html"
     - title: PAYGO 구독 및 계약 관리
       url: "/task-manage-subscriptions.html"
-    - title: Keystone 가입 서비스 관리
+    - title: Keystone 가입 관리
       url: "/task-manage-keystone.html"
     - title: 온프레미스 ONTAP 클러스터에 대한 라이센스를 관리합니다
       url: "/task-manage-on-prem-clusters.html"

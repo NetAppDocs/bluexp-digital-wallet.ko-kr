@@ -16,6 +16,10 @@ summary: 클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하�
 [role="lead"]
 클라우드 공급자의 마켓플레이스에서 BlueXP에 가입하면 BlueXP 웹 사이트로 리디렉션됩니다. 여기에서 구독을 저장하고 특정 계정에 연결해야 합니다. 구독한 후에는 BlueXP 디지털 지갑에서 각 구독을 관리할 수 있습니다.
 
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["BlueXP(표준 모드)를 구독하는 방법 알아보기"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["BlueXP(제한된 모드)를 구독하는 방법을 알아보십시오."^]
+
+
 
 
 == 구독 정보를 확인하십시오

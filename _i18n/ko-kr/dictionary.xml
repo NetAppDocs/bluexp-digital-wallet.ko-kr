@@ -193,8 +193,6 @@
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Keystone * 을 선택합니다.</block>
   <block id="daf4ae396784c74ec2cbf002eaaa25f4" category="list-text">NetApp Keystone* 시작 페이지가 나타나면 페이지에 나열된 주소로 이메일을 보냅니다.</block>
   <block id="16692c26ca4528e651bbb36d93c465c7" category="paragraph">NetApp 담당자가 사용자 계정에 구독 액세스를 승인하여 요청을 처리합니다.</block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
-  <block id="18dea2097f201a1ab3eb6d3305d42f0a" category="paragraph">Cloud Volumes ONTAP에 사용할 구독을 연결합니다.</block>
   <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">구독 링크</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">세 개의 나란히 점이 있는 아이콘입니다</block>
   <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">연결할 구독의 경우 을 클릭합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 링크 * 를 선택합니다.</block>
@@ -202,7 +200,6 @@
   <block id="53dd6d03631eca7d8e89d0d7d8cdeb77" category="paragraph"><block ref="53dd6d03631eca7d8e89d0d7d8cdeb77" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c01bba3f5cf220440d62298c4287d655" category="paragraph">이제 가입이 BlueXP 계정에 연결되어 있으며 Cloud Volumes ONTAP 작업 환경을 생성할 때 선택할 수 있습니다.</block>
   <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">커밋된 용량을 더 많이 또는 적게 요청합니다</block>
-  <block id="51865ab5b1a727fd7b6804d74e80a1cd" category="paragraph">구독에 대해 커밋된 용량을 조정해야 하는 경우 BlueXP 인터페이스에서 바로 요청을 보낼 수 있습니다.</block>
   <block id="a2748c51966db7db689a8801f6ae4150" category="list-text">용량을 조정하려는 구독의 경우 을 클릭합니다 <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> 를 선택하고 * 상세 정보 보기 및 편집 * 을 선택합니다.</block>
   <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">하나 이상의 구독에 대해 요청된 커밋 용량을 입력합니다.</block>
   <block id="b21f9c14aa5cab57ac732dac504b7b63" category="inline-image-macro">구독에 대해 커밋된 용량 변경을 요청할 수 있는 기능을 보여 주는 스크린샷입니다.</block>
@@ -441,8 +438,6 @@
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Google Cloud 구독이 프라이빗 오퍼와 연결되어 있고 해당 프라이빗 오퍼가 생성 및 수락된 후 수정된 경우 해당 용어에 N/A가 표시됩니다 이 시나리오에서는 Google Cloud Marketplace로부터 수신한 API 응답에 용어 관련 정보가 포함되지 않습니다.</block>
   <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Google Cloud 프라이빗 오퍼가 있는 경우 계약 옵션을 사용할 수 없습니다.</block>
   <block id="885ce97feb1a2410a348b3f3764dee9d" category="list-text">Cloud Volumes ONTAP에 사용할 Keystone 가입 서비스를 관리하고 확정된 용량을 변경하십시오</block>
-  <block id="e29dbbc5408d2fe6da0ae9249031fad5" category="summary">Cloud Volumes ONTAP에서 사용할 수 있도록 구독을 지원하여 디지털 지갑에서 Keystone 구독 서비스 관리 또한 커밋된 용량에 대한 변경 내용을 요청하고 구독 연결을 해제할 수 있습니다.</block>
-  <block id="8cd29d21eeca72789ed2e573a1032dbd" category="doc">Keystone 가입 서비스 관리</block>
   <block id="4112533811706ae9c45d956e68299f46" category="paragraph">BlueXP 디지털 지갑에서 용량 기반 라이센스를 관리하여 NetApp 계정의 Cloud Volumes ONTAP 시스템 용량이 충분한지 확인합니다.</block>
   <block id="b37ea3f4c93245969c515634c741e9bf" category="paragraph">BlueXP 디지털 지갑 _ 을(를) 사용하면 한 곳에서 Cloud Volumes ONTAP에 대한 라이센스를 관리할 수 있습니다. 새 라이센스를 추가하고 기존 라이센스를 업데이트할 수 있습니다.</block>
   <block id="03fc5be3f1d32a032f3da42181c0e6ed" category="section-title">BlueXP 디지털 지갑에 라이센스를 추가하는 방법</block>
@@ -490,14 +485,9 @@
   <block id="325ef46eb3d6b63c4d60ef08cdd6176f" category="inline-image-macro">BlueXP 디지털 지갑에서 충전 방법 변경 단추가 표 바로 위에 있는 Cloud Volumes ONTAP 페이지 스크린샷</block>
   <block id="bdc5814154b1b181ca8722ef08ed8a28" category="paragraph"><block ref="bdc5814154b1b181ca8722ef08ed8a28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d592a4e1d68c1047f1f5e39639bee6bf" category="paragraph">BlueXP 디지털 지갑은 각 패키지 유형의 소비된 용량을 새로 고쳐 방금 변경한 내용을 고려할 수도 있습니다.</block>
-  <block id="16c141e06e5f6ba408b4992a97c8b45f" category="paragraph">Cloud Volumes ONTAP에서 사용할 수 있도록 구독을 활성화하여 BlueXP 디지털 지갑에서 Keystone 가입을 관리하십시오. 또한 커밋된 용량에 대한 변경 내용을 요청하고 구독 연결을 해제할 수 있습니다.</block>
-  <block id="a99a383ab90c9f21375613d8a38ea1c8" category="paragraph">Keystone 가입 _ 은 NetApp이 제공하는 종량제 스토리지 서비스입니다.</block>
-  <block id="ef32689f1a32fe16e0893f8394486cba" category="paragraph">BlueXP에서 Keystone 등록을 사용하고 관리하려면 NetApp에 문의하여 Keystone 구독으로 BlueXP 사용자 계정을 인증해야 합니다.</block>
   <block id="5da6315cfe65abaef2d0e00c90898ddc" category="list-text">가입을 보려면 * Keystone 가입 * 으로 돌아갑니다.</block>
   <block id="3d6aabe991edb10f282fd60995e725ca" category="inline-image-macro">Keystone 가입 목록을 보여주는 스크린샷</block>
   <block id="6fd94fda3665b39867817d4700d184e8" category="paragraph"><block ref="6fd94fda3665b39867817d4700d184e8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b10dd47ec29edab7ffa21c2337ac7f5f" category="paragraph">NetApp에서 사용자 계정을 승인한 후 Cloud Volumes ONTAP에 사용할 수 있도록 Keystone 구독을 연결해야 합니다. 이 작업을 통해 사용자는 새 Cloud Volumes ONTAP 시스템의 충전 방법으로 구독을 선택할 수 있습니다.</block>
-  <block id="7ec05ce6a514daa78763d92fa399d1b0" category="paragraph">새 Cloud Volumes ONTAP 시스템에 Keystone 가입을 더 이상 사용하지 않으려면 가입을 연결 해제할 수 있습니다. 기존 Cloud Volumes ONTAP 구독에 연결되지 않은 구독만 연결 해제할 수 있습니다.</block>
   <block id="990d530a36683451e6ac666b1b224270" category="paragraph">BlueXP 디지털 지갑에서 노드 기반 라이센스를 관리하여 각 Cloud Volumes ONTAP 시스템에 필요한 용량의 유효한 라이센스가 있는지 확인합니다.</block>
   <block id="755544cd7e451192e8f70ab60b76986b" category="paragraph">BlueXP 디지털 지갑 페이지에서 일련 번호 및 PAYGO 라이센스 유형을 비롯한 각 PAYGO Cloud Volumes ONTAP 시스템에 대한 세부 정보를 볼 수 있습니다.</block>
   <block id="0ad53d9b2c46069812124453e75f768d" category="inline-image-macro">세 개의 페이고 라이센스가 있는 BlueXP 디지털 전자지갑의 표를 보여 주는 스크린샷. 각 행에는 이름, 시스템 유형, 일련 번호, 패키지 및 라이센스 관리 링크가 표시됩니다.</block>
@@ -614,4 +604,22 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="3982145b9641373c27bb8d4756883699" category="inline-link">BlueXP(표준 모드)를 구독하는 방법 알아보기</block>
+  <block id="7f5bf22f42b3df7661bb90a8ee910f75" category="list-text"><block ref="7f5bf22f42b3df7661bb90a8ee910f75" category="inline-link-rx"></block></block>
+  <block id="7d546f7fc3c445881a171d5c7ee674c2" category="inline-link">BlueXP(제한된 모드)를 구독하는 방법을 알아보십시오.</block>
+  <block id="69dd33041899bf8cb4fdb69e6f455142" category="list-text"><block ref="69dd33041899bf8cb4fdb69e6f455142" category="inline-link-rx"></block></block>
+  <block id="c27b8e6a4f797d237583ca6d38a92cd6" category="summary">Cloud Volumes ONTAP에서 사용할 구독을 설정하고 구독의 서비스 수준에 대해 약정 용량의 변경을 요청하여 BlueXP 디지털 지갑에서 Keystone 구독을 관리합니다. 서비스 수준에 대한 추가 용량을 요청하면 온프레미스 ONTAP 클러스터 또는 Cloud Volumes ONTAP 시스템에 대한 더 많은 스토리지를 확보할 수 있습니다.</block>
+  <block id="52ba144dbaac8239e9b6d8e287db93dc" category="doc">Keystone 가입 관리</block>
+  <block id="a3b1d6e06d4fd8ccc20c61ce51e45853" category="paragraph">NetApp Keystone는 유연한 종량제 구독 기반 서비스로, OpEx를 CapEx 또는 리스보다 선호하는 고객에게 하이브리드 클라우드 경험을 제공합니다.</block>
+  <block id="8635fd9dae0faf14591abf5c00ba4c36" category="inline-link">Keystone에 대해 자세히 알아보십시오</block>
+  <block id="d9e1f569a60d13d4540b611846d761f5" category="paragraph"><block ref="d9e1f569a60d13d4540b611846d761f5" category="inline-link-rx"></block></block>
+  <block id="79554ac40a8f3a03c9aaedab34165bd3" category="paragraph">BlueXP에서 Keystone 구독을 사용 및 관리하기 전에 NetApp에 문의하여 Keystone 구독으로 BlueXP 사용자 계정을 인증해야 합니다.</block>
+  <block id="8afaab6946e4a914b70539d7502e26ac" category="paragraph">NetApp에서 계정을 인증한 후 Keystone 구독을 Cloud Volumes ONTAP와 함께 사용할 수 있도록 연결할 수 있습니다. 이 작업을 통해 사용자는 새 Cloud Volumes ONTAP 시스템의 충전 방법으로 구독을 선택할 수 있습니다.</block>
+  <block id="6659aa983422f26fe41e5bcc67fa8466" category="paragraph">구독의 서비스 수준에 대해 약정 용량을 변경하려면 BlueXP에서 NetApp에 직접 요청을 보낼 수 있습니다. 서비스 수준에 대한 추가 용량을 요청하면 온프레미스 클러스터 또는 Cloud Volumes ONTAP 시스템에 대한 스토리지 용량이 늘어납니다.</block>
+  <block id="ec6e0d1bd46f010ced65478c609b1636" category="section-title">사용량을 모니터링합니다</block>
+  <block id="4bb37917188b518967d0e67a2b819327" category="paragraph">BlueXP 디지털 어드바이저 대시보드를 사용하여 Keystone 구독 사용량을 모니터링하고 보고서를 생성할 수 있습니다.</block>
+  <block id="20ea4c62f4c9e4254314fe7fbbef0319" category="inline-link">구독 사용량 모니터링에 대해 자세히 알아보십시오</block>
+  <block id="d7105dd212dc96a8b292b6b48f84916f" category="paragraph"><block ref="d7105dd212dc96a8b292b6b48f84916f" category="inline-link-rx"></block></block>
+  <block id="28ca5cda5cdef790c457097830d81ca5" category="paragraph">더 이상 BlueXP에 Keystone 구독을 사용하지 않으려는 경우 구독 링크를 해제할 수 있습니다. 기존 Cloud Volumes ONTAP 구독에 연결되지 않은 구독만 연결 해제할 수 있습니다.</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
 </blocks>
