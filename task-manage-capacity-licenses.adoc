@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-capacity-licenses.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: Digital Wallet에서 용량 기반 라이센스를 관리하여 NetApp 계정이 Cloud Volumes ONTAP 시스템에 필요한 용량을 확보하도록 하십시오. 
 ---
 = 용량 기반 라이센스 관리

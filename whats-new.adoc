@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet' 
 summary: BlueXP 디지털 지갑의 새로운 기능에 대해 알아보십시오. 
 ---
 = 새로운 기능
