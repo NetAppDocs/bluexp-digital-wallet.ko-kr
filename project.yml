@@ -44,28 +44,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 시작하십시오
-    links:
-    - title: BlueXP 디지털 지갑에 대해 알아보십시오
-      url: concept-digital-wallet.html
-  - title: 라이선스를 관리합니다
-    links:
-    - title: Cloud Volumes ONTAP의 용량 기반 라이센스 관리
-      url: task-manage-capacity-licenses.html
-    - title: BlueXP 데이터 서비스의 라이센스를 관리합니다
-      url: task-manage-data-services-licenses.html
-    - title: PAYGO 구독 및 계약 관리
-      url: task-manage-subscriptions.html
-  - title: 블로그 및 커뮤니티
-    links:
-    - title: NetApp 커뮤니티
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP 블로그
-      url: https://bluexp.netapp.com/blog
-    - title: 클라우드 웨비나
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

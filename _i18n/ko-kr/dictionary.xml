@@ -76,7 +76,6 @@
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
@@ -121,8 +120,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">현재 보고 있는 BlueXP 문서입니다.</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp Support로 케이스 생성</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
@@ -390,19 +387,11 @@
   <block id="d56bf07ec8cd4e9f29339d605ffef95c" category="sidebar">노드 기반 라이센스</block>
   <block id="064ff692e4b4a468969f66368c68e2c8" category="sidebar">온프레미스 ONTAP 클러스터에 대한 라이센스를 관리합니다</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
-  <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">라이선스를 관리합니다</block>
-  <block id="7cbe4872773ca07492a76acf7d557fef" category="sidebar">Cloud Volumes ONTAP의 용량 기반 라이센스 관리</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="49f326995814ee311b340478f99f992f" category="doc">BlueXP 디지털 전자지갑 설명서</block>
   <block id="d73d2254cb7a33ffdc126efbce99e623" category="list-text">BlueXP 계정 및 Astra Control과 관련된 PAYGO 구독 및 연간 계약을 관리합니다</block>
-  <block id="bf4700247951934a88713e31aa00a0a6" category="paragraph">BlueXP 디지털 지갑을 사용하면 다음 라이센스를 관리할 수 있습니다.</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="list-text">백업 및 복구</block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="list-text">분류</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="list-text">계층화</block>
-  <block id="fd75ff71faa02dfc85d4684cc9a98740" category="summary">BlueXP 디지털 지갑을 사용하면 BlueXP 백업 및 복구, 분류 및 계층화에 사용하기 위해 NetApp(BYOL)에서 직접 구매한 라이센스를 관리할 수 있습니다. 사용된 라이센스 용량, 남은 사용 가능 용량 등을 볼 수 있으며 용량 한도 또는 만료 날짜에 도달한 경우 알림을 볼 수 있습니다.</block>
   <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">BlueXP 백업 및 복구에 대한 라이센스를 설정합니다</block>
   <block id="6212c283c0695ee1a154f1a6cdde74ef" category="inline-link">BlueXP 분류 라이선스를 설정합니다</block>
   <block id="8202299929ccdfe388049a03c2c36d60" category="inline-link">BlueXP 계층화에 대한 라이센스를 설정합니다</block>
@@ -437,7 +426,6 @@
   <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">기간</block>
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Google Cloud 구독이 프라이빗 오퍼와 연결되어 있고 해당 프라이빗 오퍼가 생성 및 수락된 후 수정된 경우 해당 용어에 N/A가 표시됩니다 이 시나리오에서는 Google Cloud Marketplace로부터 수신한 API 응답에 용어 관련 정보가 포함되지 않습니다.</block>
   <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Google Cloud 프라이빗 오퍼가 있는 경우 계약 옵션을 사용할 수 없습니다.</block>
-  <block id="885ce97feb1a2410a348b3f3764dee9d" category="list-text">Cloud Volumes ONTAP에 사용할 Keystone 가입 서비스를 관리하고 확정된 용량을 변경하십시오</block>
   <block id="4112533811706ae9c45d956e68299f46" category="paragraph">BlueXP 디지털 지갑에서 용량 기반 라이센스를 관리하여 NetApp 계정의 Cloud Volumes ONTAP 시스템 용량이 충분한지 확인합니다.</block>
   <block id="b37ea3f4c93245969c515634c741e9bf" category="paragraph">BlueXP 디지털 지갑 _ 을(를) 사용하면 한 곳에서 Cloud Volumes ONTAP에 대한 라이센스를 관리할 수 있습니다. 새 라이센스를 추가하고 기존 라이센스를 업데이트할 수 있습니다.</block>
   <block id="03fc5be3f1d32a032f3da42181c0e6ed" category="section-title">BlueXP 디지털 지갑에 라이센스를 추가하는 방법</block>
@@ -622,4 +610,22 @@
   <block id="d7105dd212dc96a8b292b6b48f84916f" category="paragraph"><block ref="d7105dd212dc96a8b292b6b48f84916f" category="inline-link-rx"></block></block>
   <block id="28ca5cda5cdef790c457097830d81ca5" category="paragraph">더 이상 BlueXP에 Keystone 구독을 사용하지 않으려는 경우 구독 링크를 해제할 수 있습니다. 기존 Cloud Volumes ONTAP 구독에 연결되지 않은 구독만 연결 해제할 수 있습니다.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="d0f4a98872ff48fd92ead596c5f85c7e" category="list-text">Cloud Volumes ONTAP 및 온프레미스 ONTAP 클러스터에서 사용할 수 있도록 Keystone 구독 서비스를 관리하고 약정 용량의 변경을 요청합니다</block>
+  <block id="7665a7ac6a94a4b78d28cc5c7fc692e6" category="paragraph">BlueXP 디지털 지갑을 사용하면 다음 서비스에 대한 라이센스를 관리할 수 있습니다.</block>
+  <block id="79ce4013f1223c98134fc4786fafb114" category="list-text"><block ref="79ce4013f1223c98134fc4786fafb114" category="inline-link-rx"></block></block>
+  <block id="20bba0563305cf02e9d03d24ebf6f41a" category="list-text"><block ref="20bba0563305cf02e9d03d24ebf6f41a" category="inline-link-rx"></block></block>
+  <block id="99cd6bbb6bd6b4f32aaf030548bc8abb" category="list-text"><block ref="99cd6bbb6bd6b4f32aaf030548bc8abb" category="inline-link-rx"></block></block>
+  <block id="645a84975202e30700b572b49a5ee29d" category="inline-link">재해 복구</block>
+  <block id="0691bd698f71b96b0752ddbdd208c1aa" category="list-text"><block ref="8edaf8bb4e175626c9b01d0fbc3891ee" category="inline-link-rx"></block> (BYOL만 해당)</block>
+  <block id="19a1ee48ff4a757e699cf87a3f0b593d" category="list-text"><block ref="19a1ee48ff4a757e699cf87a3f0b593d" category="inline-link-rx"></block></block>
+  <block id="5ef4f6a3330e077263f2f73cd00474dc" category="list-text"><block ref="5ef4f6a3330e077263f2f73cd00474dc" category="inline-link-rx"></block></block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="7682c7f7c230bf75ef2083e67cfc7179" category="summary">BlueXP 디지털 지갑을 사용하면 BYOL(NetApp)에서 직접 구매한 라이센스를 관리하여 BlueXP 백업 및 복구, 분류, 재해 복구 및 계층화와 함께 사용할 수 있습니다. 사용된 라이센스 용량, 남은 사용 가능 용량 등을 볼 수 있으며 용량 한도 또는 만료 날짜에 도달한 경우 알림을 볼 수 있습니다.</block>
+  <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="inline-link">BlueXP 재해 복구를 위한 라이센스 설정</block>
+  <block id="ef7f2c35c52aa249a13384e6b07d0785" category="list-text"><block ref="ef7f2c35c52aa249a13384e6b07d0785" category="inline-link-rx"></block></block>
+  <block id="592997dde366d5775e7e052816854f74" category="section-title">2024년 3월 5일</block>
+  <block id="c08885153d0680dab7349b930f5310c4" category="section-title">BlueXP 재해 복구</block>
+  <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 디지털 지갑을 통해 이제 BlueXP 재해 복구용 라이센스를 관리할 수 있습니다. 라이센스를 추가하고 라이센스를 업데이트하며 라이센스 용량에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">BlueXP 데이터 서비스용 라이센스를 관리하는 방법에 관해 알아보십시오</block>
+  <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
 </blocks>
