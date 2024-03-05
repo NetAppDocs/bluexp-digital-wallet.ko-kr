@@ -38,8 +38,6 @@
   <block id="f591dbc4232b149ea0792178559405f9" category="list-text">라이센스 파일을 업로드합니다.</block>
   <block id="034f6db5181ab87d962e69b9b7b5a995" category="list-text">라이센스 업로드 * 를 클릭합니다.</block>
   <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">충전 방법을 변경합니다</block>
-  <block id="a117b4a94f6f90aef089573b1f002d26" category="paragraph">용량 기반 라이센스를 사용하는 Cloud Volumes ONTAP 시스템의 충전 방법을 변경할 수 있습니다. 예를 들어, Essentials 패키지와 함께 Cloud Volumes ONTAP 시스템을 배포한 경우 비즈니스 요구사항이 변경되면 이를 Professional 패키지로 변경할 수 있습니다.</block>
-  <block id="86f463a1f0f0879749d1274dc94305d9" category="paragraph-title">중요 참고 사항</block>
   <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="paragraph">클라우드 공급자 마켓플레이스에서 프라이빗 오퍼 또는 계약을 체결한 경우, 계약에 포함되지 않은 충전 방법으로 변경하면 BYOL(NetApp에서 라이센스를 구매한 경우) 또는 PAYGO에 대해 충전이 생성됩니다.</block>
   <block id="3397777d22d2d5f746157ca31f0d8460" category="list-text">Cloud Volumes ONTAP * 탭에서 * 충전 방법 변경 * 을 클릭합니다.</block>
   <block id="de4b4e176958ea7181911ce715504321" category="list-text">작업 환경을 선택하고 새 충전 방법을 선택한 다음 패키지 유형을 변경하면 서비스 요금이 달라지게 된다는 것을 이해했는지 확인합니다.</block>
@@ -628,4 +626,10 @@
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 디지털 지갑을 통해 이제 BlueXP 재해 복구용 라이센스를 관리할 수 있습니다. 라이센스를 추가하고 라이센스를 업데이트하며 라이센스 용량에 대한 세부 정보를 볼 수 있습니다.</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">BlueXP 데이터 서비스용 라이센스를 관리하는 방법에 관해 알아보십시오</block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
+  <block id="970af11c442d109ac4d016f7c57f63fb" category="paragraph">용량 기반 라이센스는 _package_ 형식으로 제공됩니다. Cloud Volumes ONTAP 작업 환경을 만들 때 비즈니스 요구 사항에 따라 몇 가지 라이선스 패키지 중에서 선택할 수 있습니다. 작업 환경을 만든 후 요구 사항이 변경되면 언제든지 패키지를 변경할 수 있습니다. 예를 들어, Essentials 패키지에서 Professional 패키지로 변경할 수 있습니다.</block>
+  <block id="58dcfad3183b701a8f1b8781a5644d09" category="inline-link">용량 기반 라이센스 패키지에 대해 자세히 알아보십시오</block>
+  <block id="8e8751cb9b796773a6b79b4d5c3dc7b2" category="paragraph"><block ref="0205926668933cbb2cb5f56900594078" category="inline-link-rx"></block>.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">이 작업에 대해</block>
+  <block id="3e4729f0b91cf008c10b8ab719ea9e99" category="list-text">결제 방법을 변경해도 BYOL(NetApp)에서 구매한 라이선스를 통해 청구되는지 아니면 클라우드 공급자의 마켓플레이스(Pay As You Go)에서 청구되었는지에 영향을 미치지 않습니다.</block>
+  <block id="07456d1e170e8be27eaff1e39e1ccdf6" category="paragraph">BlueXP는 항상 라이센스에 대해 요금을 청구하려고 합니다. 라이선스를 사용할 수 없는 경우 마켓플레이스 구독에 대해 요금이 부과됩니다. BYOL에서 마켓플레이스 가입으로 또는 그 반대의 경우 "전환"이 필요하지 않습니다.</block>
 </blocks>
