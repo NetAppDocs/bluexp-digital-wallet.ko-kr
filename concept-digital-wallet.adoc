@@ -34,9 +34,12 @@ BlueXP 디지털 지갑을 사용하면 NetApp(BYOL), BlueXP 마켓플레이스 
 BlueXP 디지털 지갑을 사용하면 다음 서비스에 대한 라이센스를 관리할 수 있습니다.
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["백업 및 복구"^]
-* https://docs.netapp.com/us-en/bluexp-classification/index.html["분류"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html["재해 복구"^] (BYOL만 해당)
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/index.html["랜섬웨어 보호"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["온프레미스 ONTAP 클러스터"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html["계층화"^]
 
+
+
+TIP: 또한 BlueXP  디지털 지갑을 사용하면 BlueXP  분류에 대한 라이선스를 관리할 수 있습니다. 하지만 이제 BlueXP  분류를 BlueXP  내에서 추가 비용 없이 핵심 기능으로 사용할 수 있습니다. 라이선스 또는 구독이 더 이상 필요하지 않습니다. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 자세히 알아보십시오"^]
