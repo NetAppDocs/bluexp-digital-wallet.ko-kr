@@ -20,7 +20,7 @@ BlueXP 디지털 지갑을 사용하면 각 온프레미스 ONTAP 클러스터�
 BlueXP 디지털 지갑에는 작업 환경으로 발견했거나 BlueXP에 추가한 NetApp Support 사이트 계정과 연결된 온프레미스 ONTAP 클러스터에 대한 세부 정보가 표시됩니다.
 
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["사내 ONTAP 클러스터를 검색하는 방법에 대해 알아보십시오"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["BlueXP 계정과 연결된 NSS 자격 증명을 관리하는 방법에 대해 알아봅니다"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["BlueXP  조직 또는 계정과 연결된 NSS 자격 증명을 관리하는 방법에 대해 알아봅니다"^]
 
 
 

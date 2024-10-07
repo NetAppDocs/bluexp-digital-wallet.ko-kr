@@ -10,7 +10,7 @@ summary: 'BlueXP  디지털 지갑을 사용하면 NetApp(BYOL)에서 직접 �
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/bluexp-backup-recovery/media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -34,18 +34,36 @@ TIP: 또한 BlueXP  디지털 지갑을 사용하면 BlueXP  분류에 대한 
 라이센스를 구입한 후에는 일련 번호 및 NSS 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 BlueXP에서 라이센스를 활성화할 수 있습니다. 아래 단계에서는 NLF 라이센스 파일을 가져오는 방법을 보여 줍니다(해당 방법을 사용하려는 경우).
 
 .단계
+. BlueXP  계정 ID 찾기:
++
+.. BlueXP  콘솔의 오른쪽 위에서> * ID 및 액세스 관리 * 를 선택합니다image:icon-settings-option.png["BlueXP  웹 콘솔의 오른쪽 상단에 표시되는 설정 아이콘입니다."].
+.. 조직 페이지에서 계정 ID를 찾아 복사합니다.
++
+나열된 계정 ID가 없고 조직 ID만 있는 경우 조직 ID의 처음 8개 문자를 복사하여 _account-_에 추가해야 합니다
+
++
+예를 들어 다음과 같이 조직 ID라고 가정해 보겠습니다.
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+계정 ID는 다음과 같습니다.
+
++
+계정 - ea10e1c6
+
+
+
 . 에 로그인합니다 https://mysupport.netapp.com["NetApp Support 사이트"^] 시스템 > 소프트웨어 라이센스 * 를 선택합니다.
 . 사용권의 일련 번호를 입력합니다.
 +
 image:screenshot_cloud_backup_license_step1.gif["일련 번호로 검색한 후 라이센스 테이블을 보여 주는 스크린샷"]
 
 . 라이센스 키 * 열에서 * NetApp 라이센스 파일 가져오기 * 를 선택합니다.
-. BlueXP 계정 ID(지원 사이트의 테넌트 ID라고 함)를 입력하고 * 제출 * 을 선택하여 라이센스 파일을 다운로드합니다.
+. BlueXP  계정 ID(지원 사이트에서 테넌트 ID라고 함)를 입력하고 * 제출 * 을 선택하여 라이센스 파일을 다운로드합니다.
 +
 image:screenshot_cloud_backup_license_step2.gif["테넌트 ID를 입력한 다음 제출을 선택하여 라이센스 파일을 다운로드할 수 있는 라이센스 가져오기 대화 상자가 표시된 스크린샷"]
-
-+
-BlueXP의 상단에서 * 계정 * 드롭다운을 선택한 다음 계정 옆의 * 계정 관리 * 를 선택하면 BlueXP 계정 ID를 찾을 수 있습니다. 계정 ID는 개요 탭에 있습니다.
 
 
 
