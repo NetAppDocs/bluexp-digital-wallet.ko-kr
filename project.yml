@@ -22,28 +22,32 @@ sidebar:
       url: "/concept-digital-wallet.html"
   - title: BlueXP 디지털 지갑을 사용합니다
     entries:
-    - title: Cloud Volumes ONTAP에 대한 라이센스를 관리합니다
+    - title: 개요 대시보드를 사용합니다
+      url: "/task-homepage.html"
+    - title: 라이센스 관리
       entries:
-      - title: 용량 기반 라이센스
-        url: "/task-manage-capacity-licenses.html"
-      - title: 노드 기반 라이센스
-        url: "/task-manage-node-based-licenses.html"
-    - title: BlueXP 데이터 서비스의 라이센스를 관리합니다
-      url: "/task-manage-data-services-licenses.html"
-    - title: PAYGO 구독 및 계약 관리
+      - title: 데이터 서비스 라이센스 관리
+        url: "/task-manage-data-services-licenses.html"
+      - title: Cloud Volumes ONTAP에 대한 라이센스를 관리합니다
+        entries:
+        - title: Cloud Volumes ONTAP에 대한 용량 기반 라이센스입니다
+          url: "/task-manage-capacity-licenses.html"
+        - title: Cloud Volumes ONTAP에 대한 노드 기반 라이센스
+          url: "/task-manage-node-based-licenses.html"
+    - title: 마켓플레이스 구독을 관리합니다
       url: "/task-manage-subscriptions.html"
     - title: Keystone 가입 관리
       url: "/task-manage-keystone.html"
-    - title: 온프레미스 ONTAP 클러스터에 대한 라이센스를 관리합니다
+    - title: 온-프레미스 ONTAP에 대한 라이선스를 관리합니다
       url: "/task-manage-on-prem-clusters.html"
-  - title: 지식 및 지원
-    entries:
-    - title: 지원을 위해 등록하십시오
-      url: "/task-support-registration.html"
-    - title: 도움을 받으십시오
-      url: "/task-get-help.html"
-  - title: 법적 고지
-    url: "/legal-notices.html"
+    - title: 지식 및 지원
+      entries:
+      - title: 지원을 위해 등록하십시오
+        url: "/task-support-registration.html"
+      - title: 도움을 받으십시오
+        url: "/task-get-help.html"
+    - title: 법적 고지
+      url: "/legal-notices.html"
 product-family:
   name: BlueXP
   repo: bluexp-family

@@ -1,0 +1,26 @@
+= 
+:allow-uri-read: 
+
+
+라이센스 기간이 만료될 예정이거나 라이센스 용량이 제한에 도달한 경우 BlueXP  디지털 지갑에 알림이 표시됩니다. 라이센스가 만료되기 전에 라이센스를 업데이트하여 BlueXP  데이터 서비스 또는 Cloud Volumes ONTAP를 사용하는 데 방해가 되지 않도록 할 수 있습니다.
+
+사용자가 NetApp에서 추가 용량을 구입하거나 라이센스 기간을 연장하면 라이센스에 연결된 BlueXP  계정이 NetApp 지원 사이트 계정이고 BlueXP 가 인터넷에 액세스할 수 있으면 BlueXP 가 디지털 지갑의 라이센스를 자동으로 업데이트합니다.
+
+BlueXP  계정이 NSS 계정과 연결되어 있지 않으면 수동으로 라이센스를 업데이트해야 합니다.
+
+제품 번호와 관련 NSS 계정을 입력하거나 NetApp 라이센스 파일(또는 Cloud Volumes ONTAP HA 쌍이 있는 경우 _files_)을 업로드하여 BlueXP 에서 라이센스를 수동으로 업데이트할 수 있습니다. BlueXP 에 인터넷 액세스 권한이 없는 경우(개인 모드 설치) 업로드할 NetApp 라이센스 파일을 얻어야 합니다.
+
+NetApp 영업 담당자로부터 라이선스를 구입하면 NetApp에서 일련 번호와 추가 라이선스 세부 정보가 포함된 전자 메일을 보냅니다. 디지털 지갑에서 각 라이센스를 추가하거나 업데이트하려면 해당 일련 번호가 필요합니다.
+
+
+NOTE: 일련 번호를 입력하려면 먼저 해야 합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetApp Support 사이트 계정을 BlueXP에 추가합니다"^]. 일련 번호에 액세스할 수 있는 권한이 있는 NetApp Support 사이트 계정입니다.
+
+.단계
+. 새 라이센스를 구입하려면 NetApp 담당자에게 문의하십시오.
++
+라이센스 비용을 지불하고 NetApp 지원 사이트에 등록하면 BlueXP 가 BlueXP  디지털 지갑의 라이센스를 자동으로 업데이트하며 데이터 서비스 라이센스 페이지에 변경 사항이 5~10분 후에 반영됩니다.
+
+. BlueXP 에서 라이선스를 자동으로 업데이트할 수 없는 경우(예: 비공개 모드에서 BlueXP 를 사용하는 경우) 지원부에서 NetApp 라이선스 파일을 구한 후 라이선스 파일을 수동으로 업로드해야 합니다. <<obtain-license,라이센스 파일을 얻는 방법에 대해 알아봅니다.>>
+. Data service licenses_탭에서 업데이트할 제품 번호를 선택하고 image:icon-action.png["추가 아이콘"]* Update license * 를 선택합니다.
+. Update license_페이지에서 라이센스 파일을 업로드하고 * Update License * 를 선택합니다.
+

@@ -15,8 +15,12 @@ indexpage:
       url: task-manage-capacity-licenses.html
     - title: BlueXP 데이터 서비스의 라이센스를 관리합니다
       url: task-manage-data-services-licenses.html
-    - title: PAYGO 구독 및 계약 관리
+  - title: 구독을 관리합니다
+    links:
+    - title: 마켓플레이스 구독 및 계약 관리
       url: task-manage-subscriptions.html
+    - title: Keystone 가입 관리
+      url: task-manage-keystone.html
   - title: 블로그 및 커뮤니티
     links:
     - title: NetApp 커뮤니티

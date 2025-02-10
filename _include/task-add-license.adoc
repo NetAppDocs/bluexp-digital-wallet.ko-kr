@@ -1,0 +1,29 @@
+= 
+:allow-uri-read: 
+
+
+라이선스와 연결된 BlueXP  계정이 NetApp 지원 사이트 계정이고 BlueXP 가 인터넷에 액세스할 수 있는 경우 라이선스 정보가 디지털 지갑에 자동으로 표시됩니다. NSS 계정과 연결되지 않은 BlueXP  계정을 사용한 경우 라이선스를 수동으로 추가해야 합니다.
+
+제품 번호 및 관련 NSS 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 BlueXP 에서 라이센스를 추가할 수 있습니다. BlueXP 에 인터넷 액세스 권한이 없는 경우(개인 모드 설치) 업로드할 NetApp 라이센스 파일을 얻어야 합니다.
+
+NetApp 영업 담당자로부터 라이선스를 구입하면 NetApp에서 일련 번호와 추가 라이선스 세부 정보가 포함된 전자 메일을 보냅니다. 디지털 지갑에서 각 라이센스를 추가하거나 업데이트하려면 해당 일련 번호가 필요합니다.
+
+
+NOTE: 일련 번호를 입력하려면 먼저 해야 합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetApp Support 사이트 계정을 BlueXP에 추가합니다"^]. 일련 번호에 액세스할 수 있는 권한이 있는 NetApp Support 사이트 계정입니다.
+
+.단계
+. BlueXP  메뉴에서 * 거버넌스 > 디지털 지갑 * 을 선택한 다음 * 데이터 서비스 라이센스 * 탭을 선택합니다.
+. 라이선스 추가 * 를 선택합니다.
+. Add license_대화 상자에서 라이센스 정보를 입력하고 * Add license * 를 선택합니다.
++
+** 일련 번호가 있고 NSS 계정을 알고 있는 경우 * 일련 번호 입력 * 을 선택하고 해당 정보를 입력합니다.
++
+일련 번호를 입력한 경우 일련 번호에 액세스할 수 있는 권한이 있는 NetApp Support 사이트 계정도 선택해야 합니다.
+
++
+드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NSS 계정을 BlueXP에 추가합니다"^]
+
+** 라이센스 파일(비공개 모드에서 BlueXP 를 사용할 때 필요)이 있는 경우 * 라이센스 파일 업로드 * 옵션을 선택하고 프롬프트에 따라 파일을 첨부합니다.
+
+
+

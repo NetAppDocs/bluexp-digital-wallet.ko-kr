@@ -14,24 +14,27 @@ summary: 'BlueXP 디지털 지갑을 사용하면 NetApp(BYOL), BlueXP 마켓플
 
 
 [role="lead"]
-BlueXP 디지털 지갑을 사용하면 NetApp(BYOL), BlueXP 마켓플레이스 가입 및 NetApp Keystone에서 구입한 BlueXP 라이센스를 관리 및 모니터링할 수 있습니다.
+BlueXP  디지털 지갑을 사용하면 BYOL(NetApp), BlueXP  데이터 서비스 마켓플레이스 구독(NetApp Cloud Volumes ONTAP 포함), NetApp Keystone에서 구매한 BlueXP  라이센스를 관리하고 모니터링할 수 있습니다.
 
 
 
-== 피처
+== 디지털 지갑에서 라이선스 및 구독이 표시되는 방식
 
-* Cloud Volumes ONTAP에 대한 용량 기반 및 노드 기반 라이센스 관리
-* BlueXP 데이터 서비스에 대한 라이센스를 추가하고 관리합니다
-* BlueXP  조직 및 Astra Control과 관련된 PAYGO의 구독 및 연간 계약을 관리합니다
-* Cloud Volumes ONTAP 및 온프레미스 ONTAP 클러스터에서 사용할 수 있도록 Keystone 구독 서비스를 관리하고 약정 용량의 변경을 요청합니다
-* 온프레미스 ONTAP 클러스터에 대한 하드웨어 및 소프트웨어 계약 상태 정보를 봅니다
+구독에 사용된 BlueXP  계정이 NetApp 지원 사이트 계정인 경우 라이선스 및 구독 모두 자동으로 디지털 지갑에 표시됩니다. NetApp 지원 사이트(NSS) 계정과 연결되지 않은 BlueXP  계정을 사용한 경우 라이선스를 수동으로 추가 및 업데이트해야 하며 사용 현황, 용량 및 기타 세부 정보가 변경되지 않습니다.
 
+그 동안 BlueXP는 NetApp의 라이센스 서비스에 대해 자동으로 쿼리하여 NetApp Support 사이트 계정과 연결된 라이센스에 대한 자세한 정보를 확인합니다. 오류가 없으면 BlueXP는 자동으로 디지털 지갑에 라이센스를 추가합니다.
+
+BlueXP 에서 라이선스를 추가할 수 없는 경우 직접 디지털 지갑에 라이선스를 추가해야 합니다. 예를 들어 BlueXP  사용자 계정이 NetApp 지원 사이트 계정과 연결되어 있지 않은 경우 라이선스를 직접 추가해야 합니다.
+
+NetApp 영업 담당자로부터 라이선스를 구입하면 NetApp에서 일련 번호와 추가 라이선스 세부 정보가 포함된 전자 메일을 보냅니다. 디지털 지갑에서 각 라이센스를 추가하거나 업데이트하려면 해당 일련 번호가 필요합니다.
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetApp 지원 사이트 계정을 BlueXP  사용자 자격 증명에 추가하는 방법에 대해 알아봅니다"^]..
 
 
 
 == 지원되는 서비스
 
-BlueXP 디지털 지갑을 사용하면 다음 서비스에 대한 라이센스를 관리할 수 있습니다.
+BlueXP  디지털 지갑을 사용하면 다음 서비스에 대한 라이선스 및 구독을 관리할 수 있습니다.
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["백업 및 복구"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
@@ -40,6 +43,3 @@ BlueXP 디지털 지갑을 사용하면 다음 서비스에 대한 라이센스�
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["온프레미스 ONTAP 클러스터"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html["계층화"^]
 
-
-
-TIP: 또한 BlueXP  디지털 지갑을 사용하면 BlueXP  분류에 대한 라이선스를 관리할 수 있습니다. 하지만 이제 BlueXP  분류를 BlueXP  내에서 추가 비용 없이 핵심 기능으로 사용할 수 있습니다. 라이선스 또는 구독이 더 이상 필요하지 않습니다. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 자세히 알아보십시오"^]

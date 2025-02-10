@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+summary: 디지털 홈 페이지에서 조직의 모든 구독 및 라이선스에 대한 개요를 볼 수 있습니다. 
+---
+= 대시보드 개요를 사용합니다
+:allow-uri-read: 
+
+
+
+
+== 대시보드 개요를 사용합니다
+
+[role="lead"]
+디지털 지갑의 * Overview * 대시보드를 사용하여 라이선스 및 구독의 상태를 모니터링하여 구독이 만료 날짜 또는 용량 제한에 도달할 때 비용을 관리하고 서비스를 유지할 수 있습니다.
+
+각 데이터 서비스(Cloud Volumes ONTAP 포함)에 대한 특정 라이선스 및 구독 정보를 확인하고 각 서비스에 대한 세부 정보를 드릴다운할 수 있습니다.
+
+또한 예정된 용량 제한 또는 만료에 대한 알림을 받고 조치를 취하라는 메시지가 표시됩니다.
+
+
+
+=== 특정 데이터 서비스에 대한 세부 정보를 봅니다
+
+Digital Wallet * Overview * 대시보드는 다음 데이터 서비스에 대한 세부 정보를 볼 수 있는 기능을 제공합니다.
+
+* Cloud Volumes ONTAP
+* 재해 복구
+* 랜섬웨어 보호
+* 백업 및 복구
+* 계층화
+
+
+예를 들어, Cloud Volumes ONTAP 리소스 관리를 담당하는 관리자는 각 라이선스 또는 구독의 현재 용량을 볼 수 있으며, 이를 통해 해당 리소스 내에서 리소스를 자세히 볼 수 있습니다.
+
+참고: 대시보드에서 라이선스를 업데이트하고 제거할 수는 있지만 새 라이선스 또는 구독을 추가할 수는 없습니다.
+
+link:task-manage-data-services-licenses.html["라이선스 관리에 대해 자세히 알아보세요"^].. link:task-manage-subscriptions.html["구독 관리에 대해 자세히 알아보십시오"^]..
+
+.단계
+. BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
+. 개요 * 를 선택합니다.
+. 각 데이터 서비스(Cloud Volumes ONTAP 포함)에 대해 * 보기 * 를 선택하여 세부 정보를 보고 라이선스 및 구독을 관리합니다.
++
+각 타일은 용량 상태에 대한 그래픽 개요를 제공하고 세부 정보 페이지에서는 해당 용량에 대한 지불 방법을 보고 관리할 수 있습니다.
+
+. 라이센스 * 또는 * 구독 * 탭을 선택합니다.
+. 열 필터와 필터링 기준으로 사용할 값을 선택하여 테이블을 필터링합니다. 예를 들어, * 구독 * 탭에서 '유형' 열을 '연간 계약' 또는 '구독'별로 필터링할 수 있습니다.
++
+image:screenshot_digital_wallet_filter.png["구독 테이블에 대한 필터 작업"]
+
+. 표에 표시된 열을 사용자 정의합니다. 표시하거나 숨길 열을 나타내는 열 아이콘을 선택하여 테이블에서 열을 추가하거나 제거할 수 있습니다. 다음 스크린샷은 유형, 종료 날짜, 상태 및 구성 열만 나타냅니다.
++
+image:screenshot_digital_wallet_show_hide_columns.png["스크린샷은 열을 표시하거나 숨기는 방법의 예를 제공합니다"]
+
+. 임의의 행을 확장하여 구독 또는 라이센스에 포함된 용량, 구입한 용량 및 조건에 대한 세부 정보를 확인합니다.
+. 작업 메뉴를 사용하여 라이선스를 업데이트하거나 구독을 다른 조직과 연결하는 등의 특정 라이선스 또는 구독을 관리할 수 있습니다.
++
+특정 서비스에 대한 * 개요 * 페이지에서 새 라이선스 또는 구독을 추가할 수 없으며 * 데이터 서비스 라이선스 * 탭 또는 * 마켓플레이스 구독 * 탭에서만 라이선스나 구독을 추가할 수 있습니다.
+
++
+link:task-data-services-licenses.html["라이선스 관리에 대해 자세히 알아보세요."] link:task-manage-subscriptions.html["구독 관리에 대해 자세히 알아보십시오."]
+
+
+
+
+
+=== 라이센스 또는 가입 문제를 해결합니다
+
+해결해야 하는 라이선스 및 구독 문제를 볼 수 있습니다. 이 문제에는 만료 또는 용량 만료 예정인 라이센스와 구독이 포함됩니다.
+
+. BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.
+. 개요 * 를 선택합니다.
+. 조정이 필요한 문제를 보려면 * 조치 필요 * 타일에 * 해결 * 을 선택합니다. Resolve * 가 표시되지 않으면 현재 조치가 필요한 문제가 없습니다.
+. 조치 필요 * 페이지에서 * 라이센스 * 탭 또는 * 구독 * 탭을 선택합니다.
+. 작업 메뉴를 사용하여 문제를 해결합니다.
++
+link:task-manage-data-services-licenses.html["라이선스 관리에 대해 자세히 알아보세요"^].. link:task-manage-subscriptions.html["구독 관리에 대해 자세히 알아보십시오"^]..
+
+
