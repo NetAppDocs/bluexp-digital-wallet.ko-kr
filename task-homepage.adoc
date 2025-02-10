@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-homepage.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: 디지털 홈 페이지에서 조직의 모든 구독 및 라이선스에 대한 개요를 볼 수 있습니다. 
 ---
 = 대시보드 개요를 사용합니다
@@ -43,14 +43,14 @@ link:task-manage-data-services-licenses.html["라이선스 관리에 대해 자�
 . 개요 * 를 선택합니다.
 . 각 데이터 서비스(Cloud Volumes ONTAP 포함)에 대해 * 보기 * 를 선택하여 세부 정보를 보고 라이선스 및 구독을 관리합니다.
 +
-각 타일은 용량 상태에 대한 그래픽 개요를 제공하고 세부 정보 페이지에서는 해당 용량에 대한 지불 방법을 보고 관리할 수 있습니다.
+각 타일은 용량에 대한 그래픽 개요를 제공합니다. 세부 정보 페이지를 보고 해당 용량에 대한 지불 방법을 관리할 수 있습니다.
 
 . 라이센스 * 또는 * 구독 * 탭을 선택합니다.
 . 열 필터와 필터링 기준으로 사용할 값을 선택하여 테이블을 필터링합니다. 예를 들어, * 구독 * 탭에서 '유형' 열을 '연간 계약' 또는 '구독'별로 필터링할 수 있습니다.
 +
 image:screenshot_digital_wallet_filter.png["구독 테이블에 대한 필터 작업"]
 
-. 표에 표시된 열을 사용자 정의합니다. 표시하거나 숨길 열을 나타내는 열 아이콘을 선택하여 테이블에서 열을 추가하거나 제거할 수 있습니다. 다음 스크린샷은 유형, 종료 날짜, 상태 및 구성 열만 나타냅니다.
+. 표에 표시된 열을 사용자 정의합니다. 표시하거나 숨길 열을 나타내는 * 열 * 아이콘을 선택하여 테이블에서 열을 추가하거나 제거할 수 있습니다. 다음 스크린샷은 유형, 종료 날짜, 상태 및 구성 열만 나타냅니다.
 +
 image:screenshot_digital_wallet_show_hide_columns.png["스크린샷은 열을 표시하거나 숨기는 방법의 예를 제공합니다"]
 
