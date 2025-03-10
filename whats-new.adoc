@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet' 
+keywords: 'what"s new, features, release notes, enhancements, fixes, digital wallet, bluexp digital wallet, licenses' 
 summary: BlueXP 디지털 지갑의 새로운 기능에 대해 알아보십시오. 
 ---
 = 새로운 기능
@@ -15,6 +15,22 @@ summary: BlueXP 디지털 지갑의 새로운 기능에 대해 알아보십시�
 
 [role="lead"]
 BlueXP 디지털 지갑의 새로운 기능에 대해 알아보십시오.
+
+
+
+== 2025년 3월 10일
+
+
+
+=== 구독을 제거할 수 있습니다
+
+이제 구독을 취소한 경우 디지털 지갑에서 구독을 제거할 수 있습니다.
+
+
+
+=== 마켓플레이스 구독에 사용된 용량 보기
+
+PAYGO 서브스크립션을 볼 때 서브스크립션의 소비 용량을 볼 수 있습니다.
 
 
 

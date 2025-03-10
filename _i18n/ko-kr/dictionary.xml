@@ -683,7 +683,6 @@
   <block id="56bba40e5f5cc68b12fbc07db999847e" category="paragraph">자격 증명의 형식은 사용 중인 마켓플레이스에 따라 다릅니다. 예를 들어, Azure 마켓플레이스 가입은 Azure 구독 이름과 연결되며, AWS 마켓플레이스 구독은 AWS 계정 ID를 사용합니다. 자격 증명 페이지에서 사용 가능한 자격 증명 목록을 볼 수 있습니다.</block>
   <block id="ccc5335acd730af69ab0b427088bef46" category="paragraph">구독을 취소하는 경우 구성 옵션이 회색으로 표시됩니다.</block>
   <block id="114bfa63105a2d23514e606861c49818" category="list-text">구성하려는 구독에 해당하는 행에서 작업 메뉴를 선택하고 * 구성 * 을 선택합니다.</block>
-  <block id="a02d5bdda2c413e728f48f77a424c9a4" category="list-text">Configure_대화 상자에서 구독을 구성할 자격 증명을 선택합니다. 현재 선택한 커넥터와 연결된 자격 증명에서만 선택할 수 있습니다. 사용할 자격 증명이 표시되지 않으면 다른 연결선 보기로 전환해 보십시오. ##이 설명이 정확합니까? ##</block>
   <block id="5a66070f9f0ecd83dd28335db5efc481" category="section-title">구독을 BlueXP  조직에 연결합니다</block>
   <block id="8b0d95a41f38606f34e0ab449b5ee46d" category="paragraph">구독을 조직과 연결하면 해당 조직의 구성원이 해당 구독을 사용하여 요금을 청구할 수 있습니다.</block>
   <block id="9b5a99aec31dce1baddb14dc161239a5" category="paragraph">구독 사용을 특정 조직으로 제한하거나 여러 조직 간에 구독을 공유할 수 있습니다. 필요한 경우 기존 조직의 구독을 바꿀 수도 있습니다.</block>
@@ -694,7 +693,6 @@
   <block id="bf82031efce8f265bece8bef7a61504f" category="list-text">필요한 경우 슬라이더를 사용하여 선택한 조직의 기존 구독을 바꿀 것임을 나타냅니다.</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">Associate * 를 선택합니다.</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">구독과 연결된 자격 증명을 봅니다</block>
-  <block id="f9a62957a3b5c40b90446ae870786bb9" category="paragraph">## 디지털 지갑의 * 마켓플레이스 구독 * 페이지에서 특정 구독에 대한 자격 증명을 볼 수 있습니다. 이렇게 하면 구독이 청구되는 방식을 확인할 수 있습니다. 자격 증명은 사용 중인 커넥터에도 연결되어 있으므로 확인할 구독과 연결된 커넥터를 선택해야 합니다.##</block>
   <block id="c2c1fba9bd77826ae21ba53eaa6f5a8e" category="admonition">필요한 경우 위쪽 탐색 모음의 연결선 드롭다운을 사용하여 연결선을 전환합니다.</block>
   <block id="45cdea95a34c9590c63f84497bc5f85c" category="list-text">자격 증명을 보려는 구독이 포함된 행에서 보기 를 선택합니다. 구독과 연결된 자격 증명이 여러 개인 경우 자격 증명이 표시되지 않을 수 있으며 다른 커넥터를 선택하라는 메시지가 표시됩니다.</block>
   <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">새 마켓플레이스 가입을 추가합니다</block>
@@ -723,4 +721,17 @@
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">마켓플레이스 구독을 관리합니다</block>
   <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">각 타일은 용량에 대한 그래픽 개요를 제공합니다. 세부 정보 페이지를 보고 해당 용량에 대한 지불 방법을 관리할 수 있습니다.</block>
   <block id="8716d9652e3590060e2dac142eea7751" category="list-text">표에 표시된 열을 사용자 정의합니다. 표시하거나 숨길 열을 나타내는 * 열 * 아이콘을 선택하여 테이블에서 열을 추가하거나 제거할 수 있습니다. 다음 스크린샷은 유형, 종료 날짜, 상태 및 구성 열만 나타냅니다.</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="doc">구독을 제거할 수 있습니다</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">이제 구독을 취소한 경우 디지털 지갑에서 구독을 제거할 수 있습니다.</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">마켓플레이스 구독에 사용된 용량 보기</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">PAYGO 서브스크립션을 볼 때 서브스크립션의 소비 용량을 볼 수 있습니다.</block>
+  <block id="88b1e2295dd3d145bab292b5d6b7a69d" category="list-text">Configure_대화 상자에서 구독을 구성할 자격 증명을 선택합니다. 현재 선택한 커넥터와 연결된 자격 증명에서만 선택할 수 있습니다. 사용할 자격 증명이 표시되지 않으면 다른 연결선 보기로 전환해 보십시오.</block>
+  <block id="36faba60710a43a53c90eeea27395090" category="paragraph">디지털 지갑의 * 마켓플레이스 구독 * 페이지에서 특정 구독에 대한 자격 증명을 볼 수 있습니다. 이렇게 하면 구독이 청구되는 방식을 확인할 수 있습니다. 자격 증명은 사용 중인 커넥터에도 연결되어 있으므로 확인할 구독과 연결된 커넥터를 선택해야 합니다.</block>
+  <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">구독을 제거합니다</block>
+  <block id="2cac1e5bd6e0f02534855a25f0ddf98b" category="paragraph">하이퍼스케일러(AWS Google Cloud 또는 Azure)에서 BlueXP  구독을 취소하면 디지털 지갑에 구독 상태가 * 구독 취소 * 로 표시됩니다.</block>
+  <block id="6b083541bf531a238745c888c414e6af" category="paragraph">디지털 지갑에서 구독하지 않은 구독을 제거하면 더 이상 표시되지 않습니다.</block>
+  <block id="ff0876f12c0b09da7a5bae608ec5986f" category="list-text">제거할 구독에 해당하는 행에서 작업 메뉴를 선택합니다. * 제거 * 를 선택합니다.</block>
+  <block id="2b6dc47a20b39f901a45db5ed6695823" category="paragraph">상태가 * Unsubscribed * 인 구독만 제거할 수 있습니다.</block>
+  <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">구독 제거 * 대화 상자에서 구독을 제거할 것인지 확인합니다.</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
 </blocks>
