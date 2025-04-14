@@ -12,7 +12,7 @@ NetApp 영업 담당자로부터 라이선스를 구입하면 NetApp에서 일�
 NOTE: 일련 번호를 입력하려면 먼저 해야 합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetApp Support 사이트 계정을 BlueXP에 추가합니다"^]. 일련 번호에 액세스할 수 있는 권한이 있는 NetApp Support 사이트 계정입니다.
 
 .단계
-. BlueXP  메뉴에서 * 거버넌스 > 디지털 지갑 * 을 선택한 다음 * 데이터 서비스 라이센스 * 탭을 선택합니다.
+. BlueXP  메뉴에서 * 거버넌스 > 디지털 지갑 * 을 선택한 다음 * 직접 라이센스 * 탭을 선택합니다.
 . 라이선스 추가 * 를 선택합니다.
 . Add license_대화 상자에서 라이센스 정보를 입력하고 * Add license * 를 선택합니다.
 +

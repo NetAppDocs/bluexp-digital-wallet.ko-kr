@@ -26,7 +26,7 @@ sidebar:
       url: "/task-homepage.html"
     - title: 라이센스 관리
       entries:
-      - title: 데이터 서비스 라이센스 관리
+      - title: 직접 라이선스 관리
         url: "/task-manage-data-services-licenses.html"
       - title: Cloud Volumes ONTAP에 대한 라이센스를 관리합니다
         entries:

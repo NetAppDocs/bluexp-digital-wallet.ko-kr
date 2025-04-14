@@ -14,9 +14,6 @@
   <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">라이선스 추가 * 를 클릭합니다.</block>
   <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">충전 방법을 변경합니다</block>
   <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="paragraph">클라우드 공급자 마켓플레이스에서 프라이빗 오퍼 또는 계약을 체결한 경우, 계약에 포함되지 않은 충전 방법으로 변경하면 BYOL(NetApp에서 라이센스를 구매한 경우) 또는 PAYGO에 대해 충전이 생성됩니다.</block>
-  <block id="de4b4e176958ea7181911ce715504321" category="list-text">작업 환경을 선택하고 새 충전 방법을 선택한 다음 패키지 유형을 변경하면 서비스 요금이 달라지게 된다는 것을 이해했는지 확인합니다.</block>
-  <block id="b0d246ceb3cd290ace3abd509e982f73" category="inline-image-macro">Cloud Volumes ONTAP 작업 환경의 새 충전 방법을 선택하는 충전 방법 변경 대화 상자의 스크린 샷</block>
-  <block id="6e594f7cd72195c88515a50fcfc2397e" category="paragraph"><block ref="6e594f7cd72195c88515a50fcfc2397e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="885d83848cc69da53e81865263b93e9b" category="summary">BlueXP 디지털 지갑을 사용하면 NetApp(BYOL), BlueXP 마켓플레이스 가입 및 NetApp Keystone에서 구입한 BlueXP 라이센스를 관리 및 모니터링할 수 있습니다.</block>
   <block id="3d6f73228ead0d62be228ed7b18d0d05" category="doc">BlueXP 디지털 지갑에 대해 알아보십시오</block>
@@ -241,8 +238,6 @@
   <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">라이센스 파일이 아직 없는 경우 아래 섹션을 참조하십시오.</block>
   <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">할당되지 않은 Exchange 노드 기반 라이센스</block>
   <block id="82330159ba1b86113008185841af38f9" category="paragraph">라이센스 교환은 Cloud Volumes ONTAP 라이센스를 해지하고 서비스에 대해 달러 상당 라이센스를 생성합니다.</block>
-  <block id="9df8e0785445964e646ecf922e67b378" category="list-text">Cloud Volumes ONTAP HA 쌍의 라이센스는 51TiB 데이터 서비스 라이센스로 변환됩니다</block>
-  <block id="fc9771c21d913259d9cc1605db9e67fc" category="list-text">Cloud Volumes ONTAP 단일 노드의 라이센스는 32TiB 데이터 서비스 라이센스로 변환됩니다</block>
   <block id="fff69e388498c7da2216c0a49587cbc8" category="list-text">Exchange 라이센스 * 를 클릭합니다.</block>
   <block id="25abdaf706ab9bbfe1775de2626f958f" category="inline-image-macro">할당되지 않은 라이센스 페이지에 나타나는 Exchange 라이센스 옵션 스크린샷</block>
   <block id="59069c86e2c388bcb56b4ec04ba7c1b1" category="paragraph"><block ref="59069c86e2c388bcb56b4ec04ba7c1b1" category="inline-image-macro-rx" type="image"></block></block>
@@ -349,7 +344,6 @@
   <block id="b37ea3f4c93245969c515634c741e9bf" category="paragraph">BlueXP 디지털 지갑 _ 을(를) 사용하면 한 곳에서 Cloud Volumes ONTAP에 대한 라이센스를 관리할 수 있습니다. 새 라이센스를 추가하고 기존 라이센스를 업데이트할 수 있습니다.</block>
   <block id="03fc5be3f1d32a032f3da42181c0e6ed" category="section-title">BlueXP 디지털 지갑에 라이센스를 추가하는 방법</block>
   <block id="472179c55c070df5bcb6f6fd708c412f" category="paragraph">그 동안 BlueXP는 NetApp의 라이센스 서비스에 대해 자동으로 쿼리하여 NetApp Support 사이트 계정과 연결된 라이센스에 대한 자세한 정보를 확인합니다. 오류가 없으면 BlueXP는 자동으로 디지털 지갑에 라이센스를 추가합니다.</block>
-  <block id="c713a53d9b2831d188de3225e90ebdee" category="paragraph">BlueXP에서 라이센스를 추가할 수 없는 경우 디지털 지갑에 직접 추가해야 합니다. 예를 들어, 인터넷에 액세스할 수 없는 위치에 Connector가 설치되어 있는 경우 라이센스를 직접 추가해야 합니다. <block ref="2b377ff52574668221716136185f8476" category="inline-xref-macro-rx"></block>.</block>
   <block id="70998cc9a7ddc4592ecb1e8fc59e0b63" category="paragraph">BlueXP 디지털 지갑에는 계정의 총 소비된 용량과 라이센스 패키지를 통한 소비된 용량이 표시됩니다. 이를 통해 비용이 청구되는 방식 및 추가 용량을 구입해야 하는지 여부를 파악할 수 있습니다.</block>
   <block id="37532cd27e3c53471b1caed0ba1f90ed" category="section-title">사용 보고서를 다운로드합니다</block>
   <block id="c2b73e18a5b530a547ba48a8177d13c3" category="inline-image-macro">스크린샷은 Digital Wallet Cloud Volumes ONTAP Capacity Based License(디지털 지갑 용량 기반 라이센스) 페이지를 보여 주고 사용 보고서 단추를 강조 표시합니다.</block>
@@ -378,8 +372,6 @@
   <block id="8b3da2ed858ee5c956acde26c9ef7dd0" category="admonition">FlexClone 볼륨은 이러한 유형의 볼륨에 비용이 발생하지 않으므로 이 보고서에 포함되지 않습니다.</block>
   <block id="23e918e9f1c9f1bb5769dcc236489de2" category="paragraph">사용량 보고서가 다운로드됩니다.</block>
   <block id="05655bb3cbd3604d6c71a1db823ad94f" category="list-text">다운로드한 파일을 열어 보고서에 액세스합니다.</block>
-  <block id="325ef46eb3d6b63c4d60ef08cdd6176f" category="inline-image-macro">BlueXP 디지털 지갑에서 충전 방법 변경 단추가 표 바로 위에 있는 Cloud Volumes ONTAP 페이지 스크린샷</block>
-  <block id="bdc5814154b1b181ca8722ef08ed8a28" category="paragraph"><block ref="bdc5814154b1b181ca8722ef08ed8a28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d6aabe991edb10f282fd60995e725ca" category="inline-image-macro">Keystone 가입 목록을 보여주는 스크린샷</block>
   <block id="6fd94fda3665b39867817d4700d184e8" category="paragraph"><block ref="6fd94fda3665b39867817d4700d184e8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="990d530a36683451e6ac666b1b224270" category="paragraph">BlueXP 디지털 지갑에서 노드 기반 라이센스를 관리하여 각 Cloud Volumes ONTAP 시스템에 필요한 용량의 유효한 라이센스가 있는지 확인합니다.</block>
@@ -552,7 +544,6 @@
   <block id="a52d65f3839199e04d1925a40469777d" category="paragraph">라이선스와 연결된 BlueXP  계정이 NetApp 지원 사이트 계정이고 BlueXP 가 인터넷에 액세스할 수 있는 경우 라이선스 정보가 디지털 지갑에 자동으로 표시됩니다. NSS 계정과 연결되지 않은 BlueXP  계정을 사용한 경우 라이선스를 수동으로 추가해야 합니다.</block>
   <block id="cbb4f0e1a501c6c19666681fbeca0825" category="paragraph">제품 번호 및 관련 NSS 계정을 입력하거나 NetApp 라이센스 파일(NLF)을 업로드하여 BlueXP 에서 라이센스를 추가할 수 있습니다. BlueXP 에 인터넷 액세스 권한이 없는 경우(개인 모드 설치) 업로드할 NetApp 라이센스 파일을 얻어야 합니다.</block>
   <block id="e4da416e4783a9b97eecd8ddbd39ca5b" category="paragraph">NetApp 영업 담당자로부터 라이선스를 구입하면 NetApp에서 일련 번호와 추가 라이선스 세부 정보가 포함된 전자 메일을 보냅니다. 디지털 지갑에서 각 라이센스를 추가하거나 업데이트하려면 해당 일련 번호가 필요합니다.</block>
-  <block id="359aa3841e5418fafbad09669e55c993" category="list-text">BlueXP  메뉴에서 * 거버넌스 &gt; 디지털 지갑 * 을 선택한 다음 * 데이터 서비스 라이센스 * 탭을 선택합니다.</block>
   <block id="37fcb8e7d30cc5903f7318cd979d8ae4" category="list-text">라이선스 추가 * 를 선택합니다.</block>
   <block id="b969961bd169c5e07234d15767633a3b" category="list-text">Add license_대화 상자에서 라이센스 정보를 입력하고 * Add license * 를 선택합니다.</block>
   <block id="b20365c7ce019b6e1f4c2c98af493327" category="list-text">일련 번호가 있고 NSS 계정을 알고 있는 경우 * 일련 번호 입력 * 을 선택하고 해당 정보를 입력합니다.</block>
@@ -566,11 +557,8 @@
   <block id="7416ddc285206d8d8958e74f1f79eea8" category="paragraph">BlueXP  계정이 NSS 계정과 연결되어 있지 않으면 수동으로 라이센스를 업데이트해야 합니다.</block>
   <block id="496eadbb25ec6a253c30a9f555549e85" category="paragraph">제품 번호와 관련 NSS 계정을 입력하거나 NetApp 라이센스 파일(또는 Cloud Volumes ONTAP HA 쌍이 있는 경우 _files_)을 업로드하여 BlueXP 에서 라이센스를 수동으로 업데이트할 수 있습니다. BlueXP 에 인터넷 액세스 권한이 없는 경우(개인 모드 설치) 업로드할 NetApp 라이센스 파일을 얻어야 합니다.</block>
   <block id="379dad0f18d68789867e193b48643375" category="list-text">새 라이센스를 구입하려면 NetApp 담당자에게 문의하십시오.</block>
-  <block id="5ebf99ee813e440150ec86c75a891b13" category="paragraph">라이센스 비용을 지불하고 NetApp 지원 사이트에 등록하면 BlueXP 가 BlueXP  디지털 지갑의 라이센스를 자동으로 업데이트하며 데이터 서비스 라이센스 페이지에 변경 사항이 5~10분 후에 반영됩니다.</block>
   <block id="5a25c9da253ea71b2f8779b02afe0ab3" category="inline-xref">라이센스 파일을 얻는 방법에 대해 알아봅니다.</block>
   <block id="05ee1a0f0e0943d6cf0066b6754bddd3" category="list-text">BlueXP 에서 라이선스를 자동으로 업데이트할 수 없는 경우(예: 비공개 모드에서 BlueXP 를 사용하는 경우) 지원부에서 NetApp 라이선스 파일을 구한 후 라이선스 파일을 수동으로 업로드해야 합니다. <block ref="19f08aed796241a6f1136d21f3565562" category="inline-xref-macro-rx"></block></block>
-  <block id="dc645aed622f4988d777551bcc3d7aa4" category="list-text">Data service licenses_탭에서 업데이트할 제품 번호를 선택하고 <block ref="c2d801cfb83353ade7055f5accb1a490" category="inline-image-macro-rx" type="image"></block>* Update license * 를 선택합니다.</block>
-  <block id="1485ebb78de4d89be89ebe9a91c558f8" category="list-text">Update license_페이지에서 라이센스 파일을 업로드하고 * Update License * 를 선택합니다.</block>
   <block id="abbf3397e656c62394e67cdc1337be3c" category="doc">새로운 개요 대시보드</block>
   <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP  디지털 지갑은 사용하기 쉽도록 다시 디자인되었으며 이제 추가 구독 및 라이선스 관리 기능을 제공합니다.</block>
   <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">디지털 지갑 홈페이지에는 NetApp 라이선스 및 마켓플레이스 구독에 대한 업데이트된 대시보드가 있으며, 특정 서비스, 라이선스 유형 및 필요한 작업을 드릴다운할 수 있습니다.</block>
@@ -579,7 +567,6 @@
   <block id="175fca0ca5f306258c490378dc2367db" category="section-title">구독을 조직과 연결합니다</block>
   <block id="a5f7678a307b711643d239d80564147c" category="paragraph">이제 구독이 디지털 지갑에서 직접 연결되는 조직을 업데이트할 수 있습니다.</block>
   <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">Cloud Volume ONTAP 라이센스 관리</block>
-  <block id="78ab02ef4a4fa36c21e9d7181ab77517" category="paragraph">이제 홈 페이지 또는 * 데이터 서비스 라이센스 * 탭을 통해 Cloud Volumes ONTAP 라이센스를 관리할 수 있습니다. 마켓플레이스 구독 * 탭을 사용하여 구독 정보를 봅니다.</block>
   <block id="90929795d9664576087005f35ed4c0dc" category="paragraph">BlueXP  디지털 지갑을 사용하면 BYOL(NetApp), BlueXP  데이터 서비스 마켓플레이스 구독(NetApp Cloud Volumes ONTAP 포함), NetApp Keystone에서 구매한 BlueXP  라이센스를 관리하고 모니터링할 수 있습니다.</block>
   <block id="a67b2f9752b2d88ce6e38f260686ae69" category="section-title">디지털 지갑에서 라이선스 및 구독이 표시되는 방식</block>
   <block id="1efe9efa98048a473a6092d3c9947337" category="paragraph">구독에 사용된 BlueXP  계정이 NetApp 지원 사이트 계정인 경우 라이선스 및 구독 모두 자동으로 디지털 지갑에 표시됩니다. NetApp 지원 사이트(NSS) 계정과 연결되지 않은 BlueXP  계정을 사용한 경우 라이선스를 수동으로 추가 및 업데이트해야 하며 사용 현황, 용량 및 기타 세부 정보가 변경되지 않습니다.</block>
@@ -609,7 +596,6 @@
   <block id="b04f4a30838d70bc9423c5bcc2a9d78b" category="paragraph"><block ref="b04f4a30838d70bc9423c5bcc2a9d78b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57cba9caf80ab7bb6590dd12a1c40e9a" category="list-text">임의의 행을 확장하여 구독 또는 라이센스에 포함된 용량, 구입한 용량 및 조건에 대한 세부 정보를 확인합니다.</block>
   <block id="a4bee04006bf7e006f35bb8a6a3f32ae" category="list-text">작업 메뉴를 사용하여 라이선스를 업데이트하거나 구독을 다른 조직과 연결하는 등의 특정 라이선스 또는 구독을 관리할 수 있습니다.</block>
-  <block id="24a529315ea2d732361e5d6769f85ff8" category="paragraph">특정 서비스에 대한 * 개요 * 페이지에서 새 라이선스 또는 구독을 추가할 수 없으며 * 데이터 서비스 라이선스 * 탭 또는 * 마켓플레이스 구독 * 탭에서만 라이선스나 구독을 추가할 수 있습니다.</block>
   <block id="ca23b039c5d1d583cc53022c31a54485" category="inline-link-macro">라이선스 관리에 대해 자세히 알아보세요.</block>
   <block id="4b2167e14a21898c791009b50b46ec9e" category="inline-link-macro">구독 관리에 대해 자세히 알아보십시오.</block>
   <block id="edf4dbcbd1200ec7acd2d146b799e81e" category="paragraph"><block ref="1126b2e5fef6a9209f75e5a91faff8ca" category="inline-link-macro-rx"></block> <block ref="841d65307797c9e89f68fecb565ac37f" category="inline-link-macro-rx"></block></block>
@@ -622,7 +608,6 @@
   <block id="a495aa39c60dc5d48d7bb146e6f7265a" category="list-text">개요 * 탭의 Cloud Volumes ONTAP 타일에는 계정에 대해 프로비저닝된 현재 용량이 표시됩니다.</block>
   <block id="260fa7c60a4b141a99b00056d3d429d3" category="inline-image-macro">Cloud Volumes ONTAP 라이센스 및 구독에 대한 용량 요약을 보여 주는 스크린샷</block>
   <block id="e0e863a6ab1f77fce34b0885510033de" category="paragraph"><block ref="e0e863a6ab1f77fce34b0885510033de" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bea623ba2f203df6f2cad1b5d6c826c6" category="list-text">_Data service license_는 NetApp 계정에 있는 모든 Cloud Volumes ONTAP 시스템의 프로비저닝된 총 용량입니다. 충전은 볼륨 내의 로컬, 사용, 저장 또는 유효 공간에 관계없이 각 볼륨의 프로비저닝된 크기를 기준으로 합니다.</block>
   <block id="80495a5c91b6e7cae60c8c5c750734bc" category="list-text">_Annual contract_는 NetApp에서 구매한 총 라이센스 용량(BYOL(Bring Your Own License) 또는 마켓플레이스 계약)입니다.</block>
   <block id="e55807174fe6f2d9f15f9e357ee0d63e" category="list-text">_PAYGO_는 클라우드 마켓플레이스 서브스크립션을 사용하여 프로비저닝한 총 용량입니다. PAYGO를 통한 충전은 사용된 용량이 BYOL 라이센스 용량보다 높거나 BlueXP 디지털 지갑에 사용 가능한 라이센스가 없는 경우에만 사용됩니다.</block>
   <block id="d02d58b5b8770f720f9d912913a80f1a" category="list-text">각 라이센스 패키지의 사용된 용량을 보려면 * 보기 * 를 선택하십시오.</block>
@@ -639,8 +624,6 @@
   <block id="31ccaa5879eee7a69ef3c48f1004c59c" category="list-text">결제 방법을 변경해도 BYOL(NetApp)에서 구매한 라이선스를 통해 청구되는지 아니면 클라우드 공급자의 PAYGO(Marketplace Pay-as-you-go) 구독에서 청구되는지 여부는 영향을 받지 않습니다.</block>
   <block id="2daabc6822724771970f17e8ae6a4cee" category="list-text">개요 * 탭을 선택합니다.</block>
   <block id="5b37c7034b369fcc6d9b931180eef46f" category="list-text">Cloud Volumes ONTAP 타일에서 * 보기 * 를 선택합니다.</block>
-  <block id="1cd5a7f8284f11c93e9f7bd64be49b8a" category="list-text">Capacity-based license * 테이블까지 아래로 스크롤하여 * Change Charging Method * 를 선택합니다.</block>
-  <block id="08755db7952950f790eaa52809aad08e" category="list-text">충전 방법 변경 * 을 선택합니다.</block>
   <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">* 높은 수준의 사용 *: 이 보고서에는 다음 정보가 포함됩니다.</block>
   <block id="4600869c8040d8603fe9dbe6d56a2b2a" category="list-text">* Cloud Volumes ONTAP package usage *: 이 보고서에는 최적화된 I/O 패키지를 제외한 각 패키지에 대한 다음 정보가 포함됩니다.</block>
   <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">* 스토리지 VM 사용량 *: 이 보고서는 Cloud Volumes ONTAP 시스템과 스토리지 가상 시스템(SVM)에서 청구 용량이 얼마나 분석되는지를 보여줍니다. 이 정보는 보고서에서만 사용할 수 있습니다. 여기에는 다음 정보가 포함됩니다.</block>
@@ -648,7 +631,6 @@
   <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">사용 보고서 * 를 선택합니다.</block>
   <block id="1df0076b49b993598a996d2d7eb46dd2" category="paragraph">BlueXP  디지털 지갑을 사용하면 NetApp(BYOL)에서 직접 구매한 라이센스를 Cloud Volumes for ONTAP 등의 BlueXP  데이터 서비스와 함께 사용할 수 있습니다. 사용된 라이센스 용량, 남은 사용 가능 용량 등을 볼 수 있으며 용량 한도 또는 만료 날짜에 도달한 경우 알림을 볼 수 있습니다.</block>
   <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link-macro">개요 대시보드에 대해 자세히 알아보십시오</block>
-  <block id="7b372c62933632ddd06313e5973ab678" category="admonition">데이터 서비스 라이센스 * 페이지에는 모든 라이센스가 나열됩니다. 특정 데이터 서비스에 대한 라이선스 세부 정보가 필요한 경우 * Overview * 대시보드에서 데이터 서비스 타일을 사용합니다. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block>..</block>
   <block id="353c347239342af7353680135c05995b" category="inline-link">Cloud Volumes ONTAP에 대한 라이센스를 설정합니다</block>
   <block id="a44e51eede13b57e35e18c372d5ef72e" category="list-text"><block ref="a44e51eede13b57e35e18c372d5ef72e" category="inline-link-rx"></block></block>
   <block id="1ce97cc664bad2b8b354b3220e6331e7" category="list-text">Keystone 구독 * 을 선택합니다.</block>
@@ -685,12 +667,8 @@
   <block id="114bfa63105a2d23514e606861c49818" category="list-text">구성하려는 구독에 해당하는 행에서 작업 메뉴를 선택하고 * 구성 * 을 선택합니다.</block>
   <block id="5a66070f9f0ecd83dd28335db5efc481" category="section-title">구독을 BlueXP  조직에 연결합니다</block>
   <block id="8b0d95a41f38606f34e0ab449b5ee46d" category="paragraph">구독을 조직과 연결하면 해당 조직의 구성원이 해당 구독을 사용하여 요금을 청구할 수 있습니다.</block>
-  <block id="9b5a99aec31dce1baddb14dc161239a5" category="paragraph">구독 사용을 특정 조직으로 제한하거나 여러 조직 간에 구독을 공유할 수 있습니다. 필요한 경우 기존 조직의 구독을 바꿀 수도 있습니다.</block>
   <block id="3c966102b2078c31428f6f529f1d49df" category="paragraph">구독을 조직과 연결하려면 조직 관리자 역할이 있어야 합니다.</block>
   <block id="23fa25e10ada436e3690c33daf78f47f" category="admonition">BlueXP 는 조직을 사용하여 사용자 및 리소스를 관리하는 표준 모드에서 IAM(Identity and Access Management)을 지원합니다. 비공개 또는 제한 모드에서 BlueXP 를 사용하는 경우 BlueXP _ACCOUNT_를 사용하여 구독을 포함한 사용자 및 리소스를 관리합니다.</block>
-  <block id="e8d4d17604edcb01795d2dec29046b8c" category="list-text">연결하려는 구독에 해당하는 행에서 작업 메뉴를 선택하고 * 연결 * 을 선택합니다.</block>
-  <block id="712bf394985d0b4e0af760f8e8abd91c" category="list-text">구독 연결 * 대화 상자에서 이 구독을 연결할 조직을 선택합니다.</block>
-  <block id="bf82031efce8f265bece8bef7a61504f" category="list-text">필요한 경우 슬라이더를 사용하여 선택한 조직의 기존 구독을 바꿀 것임을 나타냅니다.</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">Associate * 를 선택합니다.</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">구독과 연결된 자격 증명을 봅니다</block>
   <block id="c2c1fba9bd77826ae21ba53eaa6f5a8e" category="admonition">필요한 경우 위쪽 탐색 모음의 연결선 드롭다운을 사용하여 연결선을 전환합니다.</block>
@@ -715,7 +693,6 @@
   <block id="e74b98af0a0d10cc27c402c02fac1fda" category="sidebar">마켓플레이스 구독 및 계약 관리</block>
   <block id="a35e94495c93c5d785f8b1240c15be6a" category="sidebar">개요 대시보드를 사용합니다</block>
   <block id="9f0562c731b8981f21e8a7ac75bd947f" category="sidebar">라이센스 관리</block>
-  <block id="494ac06bbc5d38299a90be70b7e29b29" category="sidebar">데이터 서비스 라이센스 관리</block>
   <block id="c7031958abe0c6bca3058548b703b37f" category="sidebar">Cloud Volumes ONTAP에 대한 용량 기반 라이센스입니다</block>
   <block id="f34953a70b4a66823b7c335bccdd1df4" category="sidebar">Cloud Volumes ONTAP에 대한 노드 기반 라이센스</block>
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">마켓플레이스 구독을 관리합니다</block>
@@ -728,11 +705,43 @@
   <block id="88b1e2295dd3d145bab292b5d6b7a69d" category="list-text">Configure_대화 상자에서 구독을 구성할 자격 증명을 선택합니다. 현재 선택한 커넥터와 연결된 자격 증명에서만 선택할 수 있습니다. 사용할 자격 증명이 표시되지 않으면 다른 연결선 보기로 전환해 보십시오.</block>
   <block id="36faba60710a43a53c90eeea27395090" category="paragraph">디지털 지갑의 * 마켓플레이스 구독 * 페이지에서 특정 구독에 대한 자격 증명을 볼 수 있습니다. 이렇게 하면 구독이 청구되는 방식을 확인할 수 있습니다. 자격 증명은 사용 중인 커넥터에도 연결되어 있으므로 확인할 구독과 연결된 커넥터를 선택해야 합니다.</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">구독을 제거합니다</block>
-  <block id="2cac1e5bd6e0f02534855a25f0ddf98b" category="paragraph">하이퍼스케일러(AWS Google Cloud 또는 Azure)에서 BlueXP  구독을 취소하면 디지털 지갑에 구독 상태가 * 구독 취소 * 로 표시됩니다.</block>
-  <block id="6b083541bf531a238745c888c414e6af" category="paragraph">디지털 지갑에서 구독하지 않은 구독을 제거하면 더 이상 표시되지 않습니다.</block>
-  <block id="ff0876f12c0b09da7a5bae608ec5986f" category="list-text">제거할 구독에 해당하는 행에서 작업 메뉴를 선택합니다. * 제거 * 를 선택합니다.</block>
-  <block id="2b6dc47a20b39f901a45db5ed6695823" category="paragraph">상태가 * Unsubscribed * 인 구독만 제거할 수 있습니다.</block>
   <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">구독 제거 * 대화 상자에서 구독을 제거할 것인지 확인합니다.</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025년 3월 10일</block>
   <block id="341aea52571ed6aae4899a6ea183248a" category="admonition">디지털 지갑에서 구독 정보를 보려면 커넥터를 배포해야 합니다. Cloud Volumes ONTAP에 대한 노드 라이센스를 보려면 커넥터도 필요합니다.</block>
+  <block id="af4e4720a5da7d0d997443fe59680cce" category="list-text">BlueXP  메뉴에서 * 거버넌스 &gt; 디지털 지갑 * 을 선택한 다음 * 직접 라이센스 * 탭을 선택합니다.</block>
+  <block id="893ec57836c27cc349c4eb2a62a0aa1f" category="paragraph">라이센스 비용을 지불하고 NetApp 지원 사이트에 등록하면 BlueXP 가 BlueXP  디지털 지갑에서 라이센스를 자동으로 업데이트하며 * 직접 라이센스 * 페이지에 변경 사항이 5-10분 후에 반영됩니다.</block>
+  <block id="02dcd8bce07de7dc097a4ebfd00eaf71" category="list-text">Direct licenses * 탭에서 업데이트할 제품 번호를 선택하고 <block ref="c2d801cfb83353ade7055f5accb1a490" category="inline-image-macro-rx" type="image"></block>* Update license * 를 선택합니다.</block>
+  <block id="8d41ba787c10f2cc6998265252545826" category="list-text">라이센스 업데이트 * 페이지에서 라이센스 파일을 업로드하고 * 라이센스 업데이트 * 를 선택합니다.</block>
+  <block id="80f48cc4cb64860e960ab9e9145cc67e" category="paragraph">라이센스를 관리하려면 서비스 이름을 기준으로 라이센스를 그룹화할 수 있습니다. 그러면 특정 서비스와 관련된 모든 라이센스를 볼 수 있습니다. 행을 확장하여 서비스와 관련된 각 라이센스에 대한 자세한 정보를 볼 수 있습니다. 각 서비스의 루트 행에는 서비스 이름과 해당 서비스에 사용된 용량이 표시됩니다. 라이센스는 서비스 이름별로 자동으로 그룹화됩니다. 각 서비스의 루트 행에는 서비스 이름과 해당 서비스에 사용된 용량이 표시됩니다.</block>
+  <block id="7a31e490cd0c8ad68b05578ab24c91cb" category="list-text">BlueXP  메뉴에서 * Governance * &gt; * Digital Wallet * 를 선택한 다음 * Direct Licenses * 탭을 선택합니다.</block>
+  <block id="f82297c58511adf82f03f07c94881e8b" category="list-text">서비스 이름 행을 클릭하여 확장합니다. 그러면 해당 서비스와 관련된 모든 라이센스가 표시됩니다. 각 확장 행에는 라이센스 ID, 일련 번호, 용량 및 만료 날짜를 포함한 라이센스에 대한 자세한 정보가 표시됩니다.</block>
+  <block id="0bc14678dfe9cde6019256774c92b34e" category="paragraph">이제 홈 페이지 또는 * Direct licenses * 탭을 통해 Cloud Volumes ONTAP 라이센스를 관리할 수 있습니다. 마켓플레이스 구독 * 탭을 사용하여 구독 정보를 봅니다.</block>
+  <block id="a97b82bb80667e8975635f977670227e" category="paragraph">특정 서비스에 대한 * 개요 * 페이지에서 새 라이선스 또는 구독을 추가할 수 없으며 * 직접 라이선스 * 탭 또는 * 마켓플레이스 구독 * 탭에서만 라이선스 또는 구독을 추가할 수 있습니다.</block>
+  <block id="18a9434b229122882af8f6b252453c72" category="paragraph">BlueXP에서 라이센스를 추가할 수 없는 경우 디지털 지갑에 직접 추가해야 합니다. 예를 들어 커넥터가 인터넷에 액세스할 수 없는 위치에 설치되어 있는 경우 라이선스를 직접 추가해야 합니다.<block ref="21379db3c6d74c3a5d2d6d121cdcf537" category="inline-link-rx"></block>..</block>
+  <block id="b989e51822e011c35b6e3fc2f6e007cf" category="list-text">_Direct license_는 NetApp 계정에 있는 모든 Cloud Volumes ONTAP 시스템의 총 프로비저닝 용량입니다. 충전은 볼륨 내의 로컬, 사용, 저장 또는 유효 공간에 관계없이 각 볼륨의 프로비저닝된 크기를 기준으로 합니다.</block>
+  <block id="0e4bc6fa91df5edc0eafb52c324b38f3" category="list-text">Capacity-based license * 테이블까지 아래로 스크롤하여 * Change charging method * 를 선택합니다.</block>
+  <block id="bdc1bf68b97604b69c5291bbde33e6e2" category="inline-image-macro">BlueXP  디지털 지갑에서 충전 방법 변경 단추가 표 바로 위에 있는 Cloud Volumes ONTAP 페이지의 스크린 샷</block>
+  <block id="6167afda1681ca1123608e055285c232" category="paragraph"><block ref="6167afda1681ca1123608e055285c232" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d05997f9ad638ee4daa35dcd63a1c553" category="list-text">충전 방법 변경* 팝업에서 작업 환경을 선택하고 새 충전 방법을 선택한 다음 패키지 유형을 변경하면 서비스 요금이 부과된다는 사실을 이해했는지 확인합니다.</block>
+  <block id="c2a404ae45ebabafb7f3598bcd8a1a18" category="list-text">충전 방법 변경 * 을 선택합니다.</block>
+  <block id="2ef1ddd95077dddfd70d5ab07187d1f8" category="admonition">Direct licenses * 페이지에 모든 라이센스가 나열됩니다. 특정 데이터 서비스에 대한 라이선스 세부 정보가 필요한 경우 * Overview * 대시보드에서 데이터 서비스 타일을 사용합니다. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block>..</block>
+  <block id="6d6c2071320d39aedc7f752f83e093e6" category="section-title">라이센스 상태를 봅니다</block>
+  <block id="488b3f4a79a8819dabc209f2405c7ba7" category="list-text">Cloud Volumes ONTAP HA 쌍 라이센싱은 51TiB 직접 라이센스로 변환됩니다</block>
+  <block id="d8961eb56e3c50e0da29ec362dcb385a" category="list-text">Cloud Volumes ONTAP 단일 노드의 라이센스는 32TiB 직접 라이센스로 변환됩니다</block>
+  <block id="40f89c459ce0878b228a9591409f3603" category="paragraph">구독 사용을 특정 조직으로 제한하거나 여러 조직 간에 구독을 공유할 수 있습니다.</block>
+  <block id="b3170678c3c61ffc94af47ef973eeb35" category="list-text">연결할 구독의 행에서 작업 메뉴를 열고 * Associate * 를 선택합니다.</block>
+  <block id="7d3a30fe2668092a63decc90304c25c5" category="list-text">구독 연결 * 대화 상자에서 구독과 연결할 조직을 하나 이상 선택합니다.</block>
+  <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">구독 설정을 취소합니다</block>
+  <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">구독을 제거하려면 먼저 구성을 취소해야 합니다. 이렇게 하면 모든 관련 데이터 및 설정이 지워집니다.</block>
+  <block id="e6e43a3845b22ab829011de2cc5db21b" category="list-text">BlueXP  탐색 메뉴에서 * 거버넌스 &gt; 디지털 지갑 * 을 선택합니다.</block>
+  <block id="8f401d09de150d1b370bd812c149ef02" category="list-text">구성을 취소할 구독의 행에서 작업 메뉴를 클릭하고 * Unconfigure * 를 선택합니다.</block>
+  <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">메시지에 따라 관련 설정 또는 데이터를 제거하거나 재설정합니다.</block>
+  <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">상태가 * Unconfigured * 로 업데이트될 때까지 기다립니다.</block>
+  <block id="d1e12202953a977de666de2e1fa787af" category="paragraph">클라우드 공급자(AWS, Google Cloud 또는 Azure)에서 BlueXP  구독을 취소하면 디지털 지갑에 구독 상태가 * 구독 취소 * 로 표시됩니다.</block>
+  <block id="bb7c20b1665589d2dd3cde7478cbc1fb" category="paragraph">디지털 지갑에서 * 구독 취소 * 구독을 제거하면 더 이상 표시되지 않습니다.</block>
+  <block id="5d0f52ca6f93228b13b446aa98e06f20" category="paragraph">구독이 * Unsubscribed * 와 * Unconfigured * 둘 다 있는 경우에만 구독을 제거할 수 있습니다. 즉, 제거하기 전에 모든 관련 설정, 데이터 및 구성을 지우거나 재설정해야 합니다.</block>
+  <block id="1cdf55c4f07b4e6c150fa4314c119aa5" category="paragraph">구독이 여전히 구성되어 있으면 * 제거 * 옵션이 표시되지 않습니다. 이 옵션을 사용할 수 있게 하려면 연결된 설정, 서비스 또는 데이터를 지워서 가입을 구성 취소합니다.</block>
+  <block id="f718d4efc769e352af879333b97563c1" category="list-text">제거하려는 구독의 행에서 작업 메뉴를 열고 * 제거 * 를 선택합니다.</block>
+  <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">상태가 * Unsubscribed * 및 * Unconfigured * 인 구독만 제거할 수 있습니다.</block>
+  <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">직접 라이선스 관리</block>
 </blocks>
