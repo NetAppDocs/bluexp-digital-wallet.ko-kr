@@ -52,6 +52,9 @@ image:screenshot_paygo_licenses.png["세 개의 페이고 라이센스가 있는
 시스템 라이센스 및 추가 용량 라이센스를 추가 및 제거하여 NetApp에서 직접 구매한 라이센스를 관리합니다.
 
 
+NOTE: NetApp BYOL 라이선스 구매, 연장 및 갱신을 제한하고 있습니다. 자세한 내용은 다음을 참조하세요.  https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#restricted-availability-of-byol-licensing-for-cloud-volumes-ontap["Cloud Volumes ONTAP 에 대한 BYOL 라이선싱의 제한된 가용성"^] .
+
+
 
 === 할당되지 않은 라이센스를 추가합니다
 
@@ -130,9 +133,7 @@ image:screenshot-license-generator.png["스크린샷: 사용 가능한 제품군
 
 === 시스템 라이센스를 업데이트합니다
 
-NetApp 담당자에게 연락하여 BYOL 구독을 갱신하면, BlueXP는 NetApp에서 새로운 라이센스를 자동으로 얻어 Cloud Volumes ONTAP 시스템에 설치합니다.
-
-보안 인터넷 연결을 통해 BlueXP에서 라이센스 파일에 액세스할 수 없는 경우 직접 파일을 얻은 다음 파일을 BlueXP에 수동으로 업로드할 수 있습니다.
+NetApp 담당자에게 연락하여 BYOL 구독을 갱신하면 BlueXP NetApp 에서 자동으로 새 라이선스를 받아 Cloud Volumes ONTAP 시스템에 설치합니다. BlueXP 보안 인터넷 연결을 통해 라이선스 파일에 액세스할 수 없는 경우, 직접 파일을 받아 BlueXP 에 수동으로 업로드할 수 있습니다.
 
 .단계
 . BlueXP 탐색 메뉴에서 * Governance > Digital Wallet * 을 선택합니다.

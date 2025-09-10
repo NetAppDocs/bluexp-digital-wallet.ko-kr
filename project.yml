@@ -33,6 +33,24 @@ sidebar:
           url: "/task-manage-capacity-licenses.html"
         - title: Cloud Volumes ONTAP에 대한 노드 기반 라이센스
           url: "/task-manage-node-based-licenses.html"
+    - title: 비공개 제안 관리
+      entries:
+      - title: AWS 비공개 제안 관리
+        entries:
+        - title: BlueXP 에 대한 AWS 비공개 제안 관리
+          url: "/task-manage-private-aws.html"
+        - title: Data Infrastructure Insights 에 대한 AWS 비공개 제안 관리
+          url: "/task-manage-private-aws-cloud-insights.html"
+      - title: Azure 비공개 제안 관리
+        entries:
+        - title: BlueXP 에 대한 Azure 비공개 제안 관리
+          url: "/task-manage-private-azure.html"
+        - title: NetApp Cloud Insights 에 대한 Azure 비공개 제안 관리
+          url: "/task-manage-private-azure-data.html"
+      - title: Google Cloud 비공개 제안 관리
+        entries:
+        - title: NetApp BlueXP 에 대한 Google Cloud 비공개 제안 관리
+          url: "/task-manage-private-google-cloud.html"
     - title: 마켓플레이스 구독을 관리합니다
       url: "/task-manage-subscriptions.html"
     - title: Keystone 가입 관리

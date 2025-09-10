@@ -1,0 +1,116 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-aws-cloud-insights.html 
+keywords: activate,license, licensing, install, request capacity, link subscription, digital wallet, keystone flex, digital wallet, bluexp digital wallet 
+summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 종단 간 개인 제안 프로세스와 NetApp Intelligent Services 수용 및 활성화 가이드를 관리합니다. 
+---
+= NetApp Cloud Insights 에 대한 AWS Marketplace 비공개 제안 수락 및 구성
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+AWS 콘솔에서 NetApp Cloud Insights 에 대한 Marketplace 비공개 제안을 수락합니다.  AWS 구독을 Cloud Insights 작업 환경에 연결합니다.
+
+.시작하기 전에
+* NetApp 영업팀과 협력하여 비공개 제안을 만들고 제안 링크를 얻으세요.
+* NetApp 영업팀과 협력하여 Cloud Insights 작업 환경을 만들고 *소유자* 역할에 이메일을 추가하세요.
+* 필요한 사항을 확인하세요link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groupspolicies.html["AWS Marketplace 권한"]
+
+
+
+
+== AWS 콘솔에서 비공개 제안 수락
+
+[IMPORTANT]
+====
+비공개 제안을 활성화하려면 모든 단계를 완료해야 합니다.  단계를 건너뛰면 활성화 문제나 이중 청구를 포함한 청구 오류가 발생할 수 있습니다.
+
+====
+.단계
+. NetApp 영업팀에서 제공한 비공개 제안 활성화 링크를 클릭하세요.  링크는 다음과 비슷하게 보여야 합니다.
+`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
++
+[NOTE]
+====
+활성화 링크를 받지 못한 경우 AWS 콘솔에서 모든 비공개 제안을 볼 수 있습니다.
+
+** 필수 관리 정책: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* 또는 *AWSMarketplaceFullAccess*
+** 사용자 지정 IAM 정책을 사용하는 경우: `aws-marketplace:ListPrivateListings` 그리고 `aws-marketplace:ViewSubscriptions`
+
+
+====
+. 비공개 제안을 보고 수락하기 위해 AWS Marketplace로 리디렉션됩니다.
++
+[NOTE]
+====
+비공개 매물은 공개 매물 목록에 추가됩니다.  *제안 선택* 드롭다운을 사용하여 공개 및 비공개 제안 간에 전환하세요.
+
+====
+. 개인 제안 세부 정보를 검토하고 귀하의 계약과 일치하는지 확인하세요.
++
+.. 정보가 정확하지 않으면 수락하지 마세요.  NetApp 영업팀에 문의하여 제안을 수정하세요.
+.. *구독*을 선택하면 청구가 시작됩니다.
++
+[NOTE]
+====
+AWS에는 두 가지 개인 제안 유형이 있습니다.
+
+*** *주문형 사용*
++
+**** 가격 정보
+**** 법률 용어
+
+
+*** *계약*
++
+**** 기간 및 날짜
+**** 갱신 설정
+**** 계약 옵션
+**** 총 계약 가격
+
+
+
+
+계약 제안의 경우, 합의된 관리 단위 수를 입력하세요.
+
+====
+
+
+. 비공개 제안을 수락하려면:
++
+.. 주문형으로 이용하려면 *구독*을 클릭하세요.
+.. 계약 제안의 경우, 각 서비스에 대한 관리 단위 수를 입력하고 *계약 생성*을 클릭하세요.
+
+
+. 수락 후 배너가 나타나 구독이 성공적으로 완료되었음을 확인하고 다음 단계를 안내합니다.
+. *계정 설정*을 클릭하세요.  이렇게 하면 NetApp Cloud Insights 로 리디렉션되어 Marketplace 구독을 구성할 수 있습니다.
++
+[NOTE]
+====
+제안을 수락했지만 등록이 완료되지 않은 경우 제품 페이지로 돌아가세요.  등록을 완료하라는 메시지가 표시됩니다.
+
+계약 제안의 경우, *구매 옵션 보기*를 클릭하여 비공개 제안을 확인한 다음, *계정 설정*을 선택하세요.
+
+====
+
+
+
+
+== 구독을 Cloud Insights 에 연결
+
+.단계
+. 당신은 다음으로 리디렉션됩니다 https://cloudinsights.netapp.com[] BlueXP 계정으로 로그인하라는 메시지가 표시됩니다.
+. *소유자* 역할이 있는 계정으로 로그인하세요.  구독은 Cloud Insights 작업 환경과 연결됩니다.
++
+[NOTE]
+====
+이 단계는 각 구독에 대해 한 번만 필요합니다.  갱신 및 추가 기능은 자동으로 적용됩니다.
+
+====
+. 구독이 연결되었습니다.
+

@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-azure-data.html 
+keywords: activate,license, licensing, install, request capacity, link subscription, digital wallet, keystone flex, digital wallet, bluexp digital wallet 
+summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 종단 간 개인 제안 프로세스와 NetApp Intelligent Services 수용 및 활성화 가이드를 관리합니다. 
+---
+= NetApp Data Infrastructure Insights 에 대한 Azure 비공개 제안을 수락하고 활성화합니다.
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure Portal에서 NetApp Data Infrastructure Insights 에 대한 Marketplace 비공개 제안을 수락하고 구독하세요.  NetApp Data Infrastructure Insights 에서 구독을 확인하고 활성화합니다.
+
+.시작하기 전에
+* NetApp 영업팀과 협력하여 Azure Billing ID에 대한 비공개 제안을 만드세요.
+* 비공개 제안과 관련된 다음 데이터 항목을 수집합니다.
++
+** Data Infrastructure Insights 작업 환경의 URL
+** 구독 종료일
+** 관리되는 유닛의 수
+
+
+* Azure Marketplace에서 비공개 제안을 수락하는 데 필요한 권한이 있는지 확인하세요.
++
+** 기업 계약(EA): *기업 관리자*
+** Microsoft 고객 계약(MCA): *청구 계정 소유자* 또는 *청구 계정 기여자*
+
+
+* 비공개 제안을 구매하고 구독을 생성하는 데 필요한 권한이 있는지 확인하세요.
++
+** 사용 중인 Azure 구독의 *구독 소유자* 또는 *구독 기여자*
+
+
+* 필요한 권한을 보유한 한 사람이 비공개 제안을 수락하고 구매할 수 있습니다.
+* Data Infrastructure Insights 에 연결할 Azure 구독 및 리소스 그룹을 결정합니다.
+
+
+
+
+== Azure Portal에서 비공개 제안을 수락하고 구독하세요.
+
+[IMPORTANT]
+====
+모든 단계를 완료하여 비공개 제안을 수락하고 활성화하세요.  단계를 건너뛰면 활성화 문제나 이중 충전이 발생할 수 있습니다.
+
+제안 조건, 가격 또는 세부 정보가 정확하지 않거나 어떤 제안을 수락해야 할지 확실하지 않은 경우 제안을 수락하지 마세요.  NetApp 영업팀에 문의하세요.
+
+====
+.단계
+. NetApp 영업팀에서 제공한 비공개 제안 링크를 클릭하고 로그인하세요. 링크를 사용할 수 없는 경우 Azure Portal에 직접 로그인하세요.
+. Azure 서비스에서 *Marketplace*를 검색하거나 선택합니다.
+. 마켓플레이스 페이지에서 *관리* 섹션 아래에 있는 *개인 제안 관리*를 클릭합니다.
+. *보기 + 수락*을 클릭하여 비공개 제안의 세부 정보를 검토하세요.
++
+.. 각 제품의 *수량*, *기간*, *가격*을 검증합니다.
+.. 세부 정보가 정확하지 않으면 구독하지 마세요.  제안을 수정하려면 NetApp 영업팀에 문의하세요.
+
+
+. 확인하고 *비공개 제안 수락*을 클릭하세요.
+. 구매 과정을 완료하려면 *구매*를 클릭하세요.
++
+[NOTE]
+====
+*구매* 버튼을 사용할 수 없는 경우, 필요한 구매 권한이 있는지 확인하세요.  그렇지 않은 경우 구매 창 링크를 복사하여 조직 내에서 권한이 있는 사람과 공유하세요.
+
+====
+. 구매 워크플로에서:
++
+.. *Azure 구독*을 선택하세요.
+.. *리소스 그룹*을 선택하세요.
+.. 새 구독의 *이름*을 입력하세요.
++
+[NOTE]
+====
+리소스 그룹에 리소스가 프로비저닝되지 않았습니다.
+
+====
+
+
+. 선택적으로 제품, 사이트 위치, 작업 정의 또는 명명 규칙 등의 *태그*를 설정합니다.
+. *검토 및 구독*을 클릭하여 세부 정보를 확인한 다음 *구독*을 클릭하세요.
+. 구독이 생성되면 *지금 계정 구성*을 클릭하세요.  NetApp Data Infrastructure Insights 로 리디렉션됩니다.
+
+
+[NOTE]
+====
+Azure 자동화는 일반적으로 *지금 계정 구성* 버튼이 나타나기 전에 30초에서 5분 안에 완료됩니다.
+
+*지금 계정 구성*을 선택하기 전에 페이지가 닫히면 Azure Portal의 서비스로 돌아갑니다.  구독 상태가 *구성 보류*로 표시됩니다.  구성을 계속하려면 선택하세요.
+
+====
+
+
+== 구독을 확인하고 활성화하세요
+
+.단계
+. 브라우저에서 다음으로 이동하세요. https://cloud-insights-portal.azurewebsites.net/[] 그리고 로그인하세요.
+. 비공개 제안이 올바르게 생성되었는지 확인하려면 구독 세부 정보를 확인하세요.
++
+.. Data Infrastructure Insights 작업 환경의 *URL*을 입력하세요.
+.. *구독 종료일*을 입력하세요.
+.. *관리되는 단위의 수*를 입력하세요.
+
+
+. *구독*을 클릭하세요.  구독이 *활성화 보류* 상태로 전환됩니다.
+. 활성화는 48~72시간 내에 완료됩니다.  이 기간 동안 작업 환경은 무제한 사용이 가능한 무료 체험 모드로 운영됩니다.  활성화 진행 상황을 추적하려면 URL을 북마크하세요.
+. 활성화가 완료되면 Data Infrastructure Insights 콘솔에 구독 세부 정보가 표시됩니다.  *관리자* 이상의 권한을 가진 사용자는 *관리자 → 구독*으로 이동하여 해당 내용을 볼 수 있습니다.
+
