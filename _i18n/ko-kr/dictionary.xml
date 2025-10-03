@@ -367,7 +367,6 @@
   <block id="b7553c7fbdeaddba3cf075caca1654ea" category="paragraph">BlueXP 디지털 지갑에 노드 기반 라이센스를 추가하여 새 Cloud Volumes ONTAP 시스템을 생성할 때 라이센스를 선택할 수 있습니다. 디지털 지갑에서 이러한 라이센스를 _할당되지 않음_으로 식별합니다.</block>
   <block id="5fd0d116f88accf7d18b80d146d87953" category="paragraph">BlueXP는 디지털 지갑에 라이선스를 추가합니다. 라이센스는 새 Cloud Volumes ONTAP 시스템에 연결할 때까지 할당되지 않은 것으로 식별됩니다. 그런 다음 디지털 지갑에서 * BYOL * 탭으로 라이센스가 이동됩니다.</block>
   <block id="637413a6c4ca962adade95ae4bcc1109" category="paragraph">아직 사용하지 않은 Cloud Volumes ONTAP에 대해 할당되지 않은 노드 기반 라이센스가 있는 경우 라이센스를 BlueXP 백업 및 복구 라이센스, BlueXP 분류 라이센스 또는 BlueXP 계층화 라이센스로 변환하여 교환할 수 있습니다.</block>
-  <block id="0f4ae6c1e816f147fccc8581ff8c2356" category="list-text"><block ref="0f4ae6c1e816f147fccc8581ff8c2356" category="inline-link-rx"></block></block>
   <block id="417c925b54c33cc7099af481238f8dde" category="list-text"><block ref="417c925b54c33cc7099af481238f8dde" category="inline-link-rx"></block></block>
   <block id="33d6a436af3ae3b14d8c7687f2687c5c" category="paragraph">드롭다운 목록에서 NetApp Support 사이트 계정을 사용할 수 없는 경우<block ref="06a3bc9d474b5d4e44d1a2733cac785a" category="inline-link-rx"></block></block>
   <block id="25e7b507c919c21847b291c84a88ba36" category="paragraph"><block ref="73e1a6a2075a5d292111b694a644abf3" category="inline-link-rx"></block>.</block>
@@ -732,24 +731,8 @@
   <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">표준 보기로 전환 단추의 스크린샷</block>
   <block id="20dbfe4510a959e2d164802031656e83" category="paragraph"><block ref="20dbfe4510a959e2d164802031656e83" category="inline-image-macro-rx" type="image"></block></block>
   <block id="486c0e58304417d548694e3073643b23" category="summary">AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 종단 간 개인 제안 프로세스와 NetApp Intelligent Services 수용 및 활성화 가이드를 관리합니다.</block>
-  <block id="287a1dce8b83044abd5ba4b137cc9356" category="doc">NetApp Cloud Insights 에 대한 AWS Marketplace 비공개 제안 수락 및 구성</block>
-  <block id="560fba0230ed4fcc4aa5b550943e5c6e" category="paragraph">AWS 콘솔에서 NetApp Cloud Insights 에 대한 Marketplace 비공개 제안을 수락합니다.  AWS 구독을 Cloud Insights 작업 환경에 연결합니다.</block>
-  <block id="e38cc8289ffa475f2f52eb3626b0751a" category="list-text">NetApp 영업팀과 협력하여 비공개 제안을 만들고 제안 링크를 얻으세요.</block>
-  <block id="a7ff81dfc486abee13341131466e6038" category="list-text">NetApp 영업팀과 협력하여 Cloud Insights 작업 환경을 만들고 *소유자* 역할에 이메일을 추가하세요.</block>
-  <block id="7bdb1970dfaaab5dac12a9d4105e0f76" category="inline-link-macro">AWS Marketplace 권한</block>
-  <block id="5291ea6312230025a44105528f9ae707" category="list-text">필요한 사항을 확인하세요<block ref="263b0644c4910f8bdcb4766350c819a3" category="inline-link-macro-rx"></block></block>
   <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">AWS 콘솔에서 비공개 제안 수락</block>
-  <block id="b92d9c0960b55910e18fa0cba585a0e6" category="paragraph">비공개 제안을 활성화하려면 모든 단계를 완료해야 합니다.  단계를 건너뛰면 활성화 문제나 이중 청구를 포함한 청구 오류가 발생할 수 있습니다.</block>
-  <block id="82c11d575f59d1f0633f2ab1f72cf2fb" category="list-text">NetApp 영업팀에서 제공한 비공개 제안 활성화 링크를 클릭하세요.  링크는 다음과 비슷하게 보여야 합니다.<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
-  <block id="76c2641fba3d253c350ef7435f955f42" category="paragraph">활성화 링크를 받지 못한 경우 AWS 콘솔에서 모든 비공개 제안을 볼 수 있습니다.</block>
-  <block id="ab6a2a55861781608c66e0b9965983e1" category="list-text">필수 관리 정책: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* 또는 *AWSMarketplaceFullAccess*</block>
-  <block id="c8a06e7e3b12ddb42900b632a628af3c" category="list-text">사용자 지정 IAM 정책을 사용하는 경우:<block ref="ff04429efaed7625c69c6d08008313b5" prefix=" " category="inline-code"></block> 그리고<block ref="326720e7bae8966d6ca9815f71034380" prefix=" " category="inline-code"></block></block>
-  <block id="272f877168d816197d5b7d7249493794" category="list-text">비공개 제안을 보고 수락하기 위해 AWS Marketplace로 리디렉션됩니다.</block>
   <block id="ed531c62409749839128abc4ac3024b2" category="paragraph">비공개 매물은 공개 매물 목록에 추가됩니다.  *제안 선택* 드롭다운을 사용하여 공개 및 비공개 제안 간에 전환하세요.</block>
-  <block id="0b94c882930f40c2c741363078d2ee74" category="list-text">개인 제안 세부 정보를 검토하고 귀하의 계약과 일치하는지 확인하세요.</block>
-  <block id="ade95ed1635e6e04c5fc70243e91b88b" category="list-text">정보가 정확하지 않으면 수락하지 마세요.  NetApp 영업팀에 문의하여 제안을 수정하세요.</block>
-  <block id="dbfca4d00890fc1d9a6c8223fb50f6c2" category="list-text">*구독*을 선택하면 청구가 시작됩니다.</block>
-  <block id="1aa0cd62a671b8f1ba9f6e1bbdcfaba3" category="paragraph">AWS에는 두 가지 개인 제안 유형이 있습니다.</block>
   <block id="b1f68330f38d69d3686f740e31c6d5b1" category="list-text">*주문형 사용*</block>
   <block id="989c9d336b48f059c4d11f6a24942a33" category="list-text">가격 정보</block>
   <block id="b0f259fa317864ce24dbbe5ad867e3a4" category="list-text">법률 용어</block>
@@ -758,19 +741,7 @@
   <block id="877816703aaff9a793d10b57c4f3d74b" category="list-text">갱신 설정</block>
   <block id="3c2829dbb4c3ce0e6c77b1ca57204aac" category="list-text">계약 옵션</block>
   <block id="dde6c83692973edca761850557257be5" category="list-text">총 계약 가격</block>
-  <block id="194070daee8c3e04c357ae6e369b3441" category="paragraph">계약 제안의 경우, 합의된 관리 단위 수를 입력하세요.</block>
-  <block id="ad4d2096632e8dd41126e7bbcc740197" category="list-text">비공개 제안을 수락하려면:</block>
   <block id="6e0d4ea20631710cd0475440fa61cba7" category="list-text">주문형으로 이용하려면 *구독*을 클릭하세요.</block>
-  <block id="2328a0802fe5ec750c1ee07b93108711" category="list-text">계약 제안의 경우, 각 서비스에 대한 관리 단위 수를 입력하고 *계약 생성*을 클릭하세요.</block>
-  <block id="5f1a0798d0df80b1a31e0c8e4d4fd174" category="list-text">수락 후 배너가 나타나 구독이 성공적으로 완료되었음을 확인하고 다음 단계를 안내합니다.</block>
-  <block id="dabae0fd96038da09b825a44b9cb885a" category="list-text">*계정 설정*을 클릭하세요.  이렇게 하면 NetApp Cloud Insights 로 리디렉션되어 Marketplace 구독을 구성할 수 있습니다.</block>
-  <block id="5ba471c397a6aa5cb7905734ced8cba5" category="paragraph">제안을 수락했지만 등록이 완료되지 않은 경우 제품 페이지로 돌아가세요.  등록을 완료하라는 메시지가 표시됩니다.</block>
-  <block id="4dfcec3f4a2c5d3ce1a39ed9226340a3" category="paragraph">계약 제안의 경우, *구매 옵션 보기*를 클릭하여 비공개 제안을 확인한 다음, *계정 설정*을 선택하세요.</block>
-  <block id="c820d1cfe9ec14fd8a9ec4a3bf722904" category="section-title">구독을 Cloud Insights 에 연결</block>
-  <block id="c2be9474300ae59f234b8d4b65edc5c6" category="list-text">당신은 다음으로 리디렉션됩니다<block ref="e5bb5326e5083abca13227bdaf5c074f" category="inline-link-rx"></block> BlueXP 계정으로 로그인하라는 메시지가 표시됩니다.</block>
-  <block id="e74dac098e1e1a1653bb3c6ae20e4373" category="list-text">*소유자* 역할이 있는 계정으로 로그인하세요.  구독은 Cloud Insights 작업 환경과 연결됩니다.</block>
-  <block id="2bf4dc14f7dcacd1058fd0fdf204e2ec" category="paragraph">이 단계는 각 구독에 대해 한 번만 필요합니다.  갱신 및 추가 기능은 자동으로 적용됩니다.</block>
-  <block id="8d39edd9872c95cf6228e7cdd1548d9c" category="list-text">구독이 연결되었습니다.</block>
   <block id="4344fe263afb8c66660fa11af0b31a35" category="doc">NetApp BlueXP 에 대한 AWS Marketplace 비공개 제안 수락 및 구성</block>
   <block id="7a119be870b49688f8c438b7a7119786" category="paragraph">AWS 콘솔에서 NetApp BlueXP 에 대한 Marketplace 비공개 제안을 수락하고 NetApp BlueXP 에서 AWS 자격 증명을 구성합니다.</block>
   <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">NetApp 판매팀과 협력하여 비공개 제안을 만들고 활성화 링크를 받으세요.</block>
@@ -813,51 +784,20 @@
   <block id="85841ffd20a8dfe9a6978cf27c2ad33d" category="paragraph">구독과 연결하려는 BlueXP 계정의 각 AWS 자격 증명에 대해 1~4단계를 반복합니다.</block>
   <block id="fcdb0510c0e23de827a7074ed7ceaa90" category="list-text">다른 BlueXP 조직의 자격 증명을 보려면 *조직* 드롭다운을 사용하여 단계를 반복하세요.</block>
   <block id="6f3f33b919af1c15d87b3f21753e2272" category="list-text">다른 커넥터의 자격 증명에 대해서는 *커넥터* 드롭다운을 사용하여 단계를 반복합니다.</block>
-  <block id="50259c64a2dc79da38b2b415dbbad7be" category="doc">NetApp Data Infrastructure Insights 에 대한 Azure 비공개 제안을 수락하고 활성화합니다.</block>
-  <block id="450b4f59b19609737d7bfc1db7f11ca1" category="paragraph">Azure Portal에서 NetApp Data Infrastructure Insights 에 대한 Marketplace 비공개 제안을 수락하고 구독하세요.  NetApp Data Infrastructure Insights 에서 구독을 확인하고 활성화합니다.</block>
   <block id="dc4e613e69e859f3be40de01f63ef1a2" category="list-text">NetApp 영업팀과 협력하여 Azure Billing ID에 대한 비공개 제안을 만드세요.</block>
-  <block id="46908715e6c72aa83ba1a214711dd030" category="list-text">비공개 제안과 관련된 다음 데이터 항목을 수집합니다.</block>
-  <block id="813a98fb6452445b3dd35ef4d8f2d6a6" category="list-text">Data Infrastructure Insights 작업 환경의 URL</block>
-  <block id="4c266a14f4d9617d47d5c0f25edecc1d" category="list-text">구독 종료일</block>
-  <block id="79a1f74f1e44398b25596c7b7d699067" category="list-text">관리되는 유닛의 수</block>
-  <block id="9615d8a100d02f0179c42f9b4c94a270" category="list-text">Azure Marketplace에서 비공개 제안을 수락하는 데 필요한 권한이 있는지 확인하세요.</block>
   <block id="3882306bc383e0907d92c44200b57542" category="list-text">기업 계약(EA): *기업 관리자*</block>
   <block id="5a17015c1797f9b3611d0d9767abd522" category="list-text">Microsoft 고객 계약(MCA): *청구 계정 소유자* 또는 *청구 계정 기여자*</block>
-  <block id="43b7088a3a1fc3292522fbdaf96e9f4e" category="list-text">비공개 제안을 구매하고 구독을 생성하는 데 필요한 권한이 있는지 확인하세요.</block>
   <block id="0df5d9a9ae7c8623fef019f860f731c5" category="list-text">사용 중인 Azure 구독의 *구독 소유자* 또는 *구독 기여자*</block>
-  <block id="28be4e001e5c461eec635e9e5e19df22" category="list-text">필요한 권한을 보유한 한 사람이 비공개 제안을 수락하고 구매할 수 있습니다.</block>
-  <block id="29f4b900ac582f230f1238611aed3ed9" category="list-text">Data Infrastructure Insights 에 연결할 Azure 구독 및 리소스 그룹을 결정합니다.</block>
   <block id="cf76a106489c34d8d815ce8e836402f9" category="section-title">Azure Portal에서 비공개 제안을 수락하고 구독하세요.</block>
-  <block id="1bb8b9fb4e56cd56effe50f633dc7e38" category="paragraph">모든 단계를 완료하여 비공개 제안을 수락하고 활성화하세요.  단계를 건너뛰면 활성화 문제나 이중 충전이 발생할 수 있습니다.</block>
-  <block id="946d050e9f40044e84f413c93083535a" category="paragraph">제안 조건, 가격 또는 세부 정보가 정확하지 않거나 어떤 제안을 수락해야 할지 확실하지 않은 경우 제안을 수락하지 마세요.  NetApp 영업팀에 문의하세요.</block>
   <block id="80fe6f318fd4a7ea6ad9a4a59226a8d4" category="list-text">NetApp 영업팀에서 제공한 비공개 제안 링크를 클릭하고 로그인하세요. 링크를 사용할 수 없는 경우 Azure Portal에 직접 로그인하세요.</block>
   <block id="b8d22f94e23c3841d89314fa73eee281" category="list-text">Azure 서비스에서 *Marketplace*를 검색하거나 선택합니다.</block>
   <block id="01d52254404cff7607242f7525a5d9b5" category="list-text">마켓플레이스 페이지에서 *관리* 섹션 아래에 있는 *개인 제안 관리*를 클릭합니다.</block>
   <block id="0a0f4af873ce479f6cd264bdbc69c46a" category="list-text">*보기 + 수락*을 클릭하여 비공개 제안의 세부 정보를 검토하세요.</block>
-  <block id="cfd7239b76f04504bfbeaddc348bd9df" category="list-text">각 제품의 *수량*, *기간*, *가격*을 검증합니다.</block>
   <block id="2e875515d0c4ffc7b932a081dce75482" category="list-text">세부 정보가 정확하지 않으면 구독하지 마세요.  제안을 수정하려면 NetApp 영업팀에 문의하세요.</block>
   <block id="75d15cf3a199a24423c04db8c6229fa7" category="list-text">확인하고 *비공개 제안 수락*을 클릭하세요.</block>
-  <block id="ff840a8e44a1e10e7d8f108f33d39971" category="list-text">구매 과정을 완료하려면 *구매*를 클릭하세요.</block>
   <block id="c835e219d7545abd5344ea09fe7ba5b9" category="paragraph">*구매* 버튼을 사용할 수 없는 경우, 필요한 구매 권한이 있는지 확인하세요.  그렇지 않은 경우 구매 창 링크를 복사하여 조직 내에서 권한이 있는 사람과 공유하세요.</block>
   <block id="f5e55f8f93d46fa2e348730347e0114b" category="list-text">구매 워크플로에서:</block>
-  <block id="2534cb5d04f0975d7a2199aeca4e7fec" category="list-text">*Azure 구독*을 선택하세요.</block>
-  <block id="5e540e21ae1ed6c4166772948acb8d11" category="list-text">*리소스 그룹*을 선택하세요.</block>
   <block id="8eca803eab6a65681b87d1ee4e176522" category="list-text">새 구독의 *이름*을 입력하세요.</block>
-  <block id="92e9f0cb05397641fd4fb0798dac4eda" category="paragraph">리소스 그룹에 리소스가 프로비저닝되지 않았습니다.</block>
-  <block id="98043c1f703c2f986cde43a8e2cf3cac" category="list-text">선택적으로 제품, 사이트 위치, 작업 정의 또는 명명 규칙 등의 *태그*를 설정합니다.</block>
-  <block id="22dd7877c016465cdacc0c970aa7698d" category="list-text">*검토 및 구독*을 클릭하여 세부 정보를 확인한 다음 *구독*을 클릭하세요.</block>
-  <block id="789e7c93c25cf7213f70e16d5ec2eb04" category="list-text">구독이 생성되면 *지금 계정 구성*을 클릭하세요.  NetApp Data Infrastructure Insights 로 리디렉션됩니다.</block>
-  <block id="f3c77038c5ead385a99bbc3f196ce6a5" category="paragraph">Azure 자동화는 일반적으로 *지금 계정 구성* 버튼이 나타나기 전에 30초에서 5분 안에 완료됩니다.</block>
-  <block id="c6f949a50757107a7ca75c36e85bfc75" category="paragraph">*지금 계정 구성*을 선택하기 전에 페이지가 닫히면 Azure Portal의 서비스로 돌아갑니다.  구독 상태가 *구성 보류*로 표시됩니다.  구성을 계속하려면 선택하세요.</block>
-  <block id="afb84665c596089b8d7a846d62094bbc" category="section-title">구독을 확인하고 활성화하세요</block>
-  <block id="9b528122e788a2e6253ea9451515cbc4" category="list-text">브라우저에서 다음으로 이동하세요.<block ref="4c59e7a78057b1d504f34c67a32c35c2" category="inline-link-rx"></block> 그리고 로그인하세요.</block>
-  <block id="deb78dc4aa83fba162fc8876739e7a34" category="list-text">비공개 제안이 올바르게 생성되었는지 확인하려면 구독 세부 정보를 확인하세요.</block>
-  <block id="d8a45ceedf176912d68a6fd3b5d30a83" category="list-text">Data Infrastructure Insights 작업 환경의 *URL*을 입력하세요.</block>
-  <block id="02ce808f389f62265b0474bfe68bc528" category="list-text">*구독 종료일*을 입력하세요.</block>
-  <block id="cc30addda753d570e5770821e25de437" category="list-text">*관리되는 단위의 수*를 입력하세요.</block>
-  <block id="2fbcdf3770da0b17fe911c3329e93c04" category="list-text">*구독*을 클릭하세요.  구독이 *활성화 보류* 상태로 전환됩니다.</block>
-  <block id="4e0ebdac68ae7876633d2603862f3292" category="list-text">활성화는 48~72시간 내에 완료됩니다.  이 기간 동안 작업 환경은 무제한 사용이 가능한 무료 체험 모드로 운영됩니다.  활성화 진행 상황을 추적하려면 URL을 북마크하세요.</block>
-  <block id="ea02fb706fda43ba24f6c042066421ef" category="list-text">활성화가 완료되면 Data Infrastructure Insights 콘솔에 구독 세부 정보가 표시됩니다.  *관리자* 이상의 권한을 가진 사용자는 *관리자 → 구독*으로 이동하여 해당 내용을 볼 수 있습니다.</block>
   <block id="3a3e1c0d4efcb724ad48529ca01a3651" category="doc">NetApp BlueXP 에 대한 Azure 비공개 제안 수락 및 활성화</block>
   <block id="f120df1a72a76ef0828242b3b86201f7" category="paragraph">Azure Portal에서 NetApp BlueXP 에 대한 Marketplace 비공개 제안을 수락하고 구독하세요.  NetApp BlueXP 에서 Azure 자격 증명을 구성합니다.</block>
   <block id="cbd25df866b9c26c2205191e25632c69" category="list-text">Azure Marketplace에서 비공개 제안을 수락하는 데 필요한 권한이 있습니다.</block>
@@ -957,12 +897,8 @@
   <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">계정 일련번호, 녹색 확인란, 지원 등록이라는 텍스트가 표시된 스크린샷입니다.</block>
   <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
   <block id="03d8ffc661918290fbea573239c62f5a" category="sidebar">비공개 제안 관리</block>
-  <block id="4efe0192c79df441a41da0744ecf3669" category="sidebar">AWS 비공개 제안 관리</block>
   <block id="c5a7b3a0d72357f8021b9c0a87292b7d" category="sidebar">BlueXP 에 대한 AWS 비공개 제안 관리</block>
-  <block id="9656eeeb9e937eb67d609df0258423fe" category="sidebar">Data Infrastructure Insights 에 대한 AWS 비공개 제안 관리</block>
-  <block id="aea29cc4f3c81c7813c16f88bb99f5f7" category="sidebar">Azure 비공개 제안 관리</block>
   <block id="4b1ed9ce2942ec5116672ef19503654f" category="sidebar">BlueXP 에 대한 Azure 비공개 제안 관리</block>
-  <block id="a75875639ba528f8850019947118007c" category="sidebar">NetApp Cloud Insights 에 대한 Azure 비공개 제안 관리</block>
-  <block id="d442ea41bda9b1d8784f8a8d8bae7bb4" category="sidebar">Google Cloud 비공개 제안 관리</block>
   <block id="051806976137f9456e5cc2d7cd30bd63" category="sidebar">NetApp BlueXP 에 대한 Google Cloud 비공개 제안 관리</block>
+  <block id="1235a43e1eea97fb8f38dd34a2bc5d47" category="list-text"><block ref="1235a43e1eea97fb8f38dd34a2bc5d47" category="inline-link-rx"></block></block>
 </blocks>
